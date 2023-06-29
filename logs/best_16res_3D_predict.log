@@ -1,0 +1,33 @@
+Time in 0.285s
+
+[ all ]
+	  	P		R		F
+  PAIR  	83.54%	77.04%	80.16%
+*TRIPLET	76.58%	70.62%	73.48%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	79.08%	74.71%	76.83%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	71.14%	62.35%	66.46%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	75.83%	70.54%	73.09%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	45.95%	31.48%	37.36%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.20%	88.72%	84.24%
+  OTE   	81.63%	90.74%	85.94%
+

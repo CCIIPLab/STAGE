@@ -1,0 +1,1737 @@
+=========================================================================================================
+> label2id: {'N-N-N': 0, 'N-N-NEG': 1, 'N-N-NEU': 2, 'N-N-POS': 3, 'N-O-N': 4, 'N-O-NEG': 5, 'N-O-NEU': 6, 'N-O-POS': 7, 'A-N-N': 8, 'A-N-NEG': 9, 'A-N-NEU': 10, 'A-N-POS': 11, 'A-O-N': 12, 'A-O-NEG': 13, 'A-O-NEU': 14, 'A-O-POS': 15}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.],
+       device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14lap', version='3D', seed=64, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=16)
+> Load model...
+> # parameters 109645656
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:777.9163	valid_loss:333.5780	triplet_f1:0.0000% [2.7044s]
+Epoch:2/100 	train_loss:306.8037	valid_loss:250.0430	triplet_f1:30.0847% [2.7094s]
+Epoch:3/100 	train_loss:240.9063	valid_loss:211.0111	triplet_f1:33.3333% [2.6893s]
+Epoch:4/100 	train_loss:197.4237	valid_loss:210.9845	triplet_f1:46.9649% [2.7122s]
+Epoch:5/100 	train_loss:171.4193	valid_loss:190.1047	triplet_f1:48.1416% [2.6835s]
+Epoch:6/100 	train_loss:144.1518	valid_loss:196.8348	triplet_f1:46.7433% [2.7021s]
+Epoch:7/100 	train_loss:123.2076	valid_loss:208.0220	triplet_f1:50.3546% [2.6898s]
+Epoch:8/100 	train_loss:106.6052	valid_loss:199.1645	triplet_f1:53.7867% [2.7443s]
+Epoch:9/100 	train_loss:93.2518	valid_loss:212.9095	triplet_f1:50.0000% [2.6911s]
+Epoch:10/100 	train_loss:79.6485	valid_loss:216.1976	triplet_f1:54.5455% [2.7121s]
+Epoch:11/100 	train_loss:68.4805	valid_loss:262.0414	triplet_f1:52.8440% [2.7012s]
+Epoch:12/100 	train_loss:60.9060	valid_loss:244.9055	triplet_f1:54.5139% [2.7245s]
+Epoch:13/100 	train_loss:61.5826	valid_loss:458.0236	triplet_f1:45.1485% [2.7043s]
+Epoch:14/100 	train_loss:98.9500	valid_loss:232.7312	triplet_f1:53.6412% [2.7088s]
+Epoch:15/100 	train_loss:56.3640	valid_loss:237.3711	triplet_f1:56.2396% [2.7079s]
+Epoch:16/100 	train_loss:46.0696	valid_loss:260.1688	triplet_f1:57.1429% [2.7013s]
+Epoch:17/100 	train_loss:39.6214	valid_loss:285.2941	triplet_f1:55.5354% [2.7121s]
+Epoch:18/100 	train_loss:34.6731	valid_loss:299.3133	triplet_f1:56.2278% [2.6993s]
+Epoch:19/100 	train_loss:33.6509	valid_loss:291.1886	triplet_f1:57.4871% [2.7481s]
+Epoch:20/100 	train_loss:33.7651	valid_loss:296.5910	triplet_f1:56.8493% [2.7233s]
+Epoch:21/100 	train_loss:27.0714	valid_loss:307.1905	triplet_f1:56.7944% [2.7257s]
+Epoch:22/100 	train_loss:23.4307	valid_loss:307.7869	triplet_f1:58.6710% [2.7126s]
+Epoch:23/100 	train_loss:22.4813	valid_loss:318.7984	triplet_f1:57.0940% [2.7273s]
+Epoch:24/100 	train_loss:25.0007	valid_loss:330.5679	triplet_f1:57.9760% [2.7037s]
+Epoch:25/100 	train_loss:23.2535	valid_loss:344.9745	triplet_f1:56.3071% [2.7546s]
+Epoch:26/100 	train_loss:22.7261	valid_loss:328.3219	triplet_f1:57.9901% [2.7331s]
+Epoch:27/100 	train_loss:28.5994	valid_loss:326.3865	triplet_f1:58.6207% [2.7204s]
+Epoch:28/100 	train_loss:20.8511	valid_loss:335.4026	triplet_f1:57.2848% [2.7130s]
+Epoch:29/100 	train_loss:17.8568	valid_loss:336.0323	triplet_f1:59.8662% [2.7414s]
+Epoch:30/100 	train_loss:18.4248	valid_loss:350.5539	triplet_f1:58.4071% [2.7028s]
+Epoch:31/100 	train_loss:16.7838	valid_loss:387.7847	triplet_f1:57.1942% [2.7293s]
+Epoch:32/100 	train_loss:15.6071	valid_loss:418.1489	triplet_f1:55.3271% [2.7262s]
+Epoch:33/100 	train_loss:14.2646	valid_loss:384.0184	triplet_f1:57.4830% [2.7251s]
+Epoch:34/100 	train_loss:14.6914	valid_loss:409.5022	triplet_f1:57.6512% [2.7296s]
+Epoch:35/100 	train_loss:15.8884	valid_loss:382.5674	triplet_f1:57.4830% [2.7215s]
+Epoch:36/100 	train_loss:15.6944	valid_loss:372.3766	triplet_f1:59.3333% [2.7224s]
+Epoch:37/100 	train_loss:21.4591	valid_loss:419.2430	triplet_f1:58.3480% [2.7083s]
+Epoch:38/100 	train_loss:21.3750	valid_loss:382.3929	triplet_f1:58.5106% [2.7210s]
+Epoch:39/100 	train_loss:15.2752	valid_loss:400.6594	triplet_f1:58.8235% [2.7333s]
+Epoch:40/100 	train_loss:14.9971	valid_loss:397.9156	triplet_f1:56.9514% [2.7371s]
+Epoch:41/100 	train_loss:13.7508	valid_loss:422.5909	triplet_f1:59.8639% [2.7554s]
+Epoch:42/100 	train_loss:14.7830	valid_loss:390.3062	triplet_f1:60.0683% [2.7411s]
+Epoch:43/100 	train_loss:12.6418	valid_loss:462.0567	triplet_f1:56.6176% [2.7351s]
+Epoch:44/100 	train_loss:12.0067	valid_loss:466.3923	triplet_f1:57.5916% [2.7384s]
+Epoch:45/100 	train_loss:11.6133	valid_loss:435.6964	triplet_f1:58.9041% [2.7386s]
+Epoch:46/100 	train_loss:13.8775	valid_loss:424.3641	triplet_f1:58.5034% [2.7372s]
+Epoch:47/100 	train_loss:12.4416	valid_loss:457.2849	triplet_f1:57.5390% [2.7199s]
+Epoch:48/100 	train_loss:10.5461	valid_loss:437.3921	triplet_f1:59.6091% [2.7411s]
+Epoch:49/100 	train_loss:12.0925	valid_loss:476.2546	triplet_f1:56.6901% [2.7399s]
+Epoch:50/100 	train_loss:16.1904	valid_loss:456.0888	triplet_f1:58.0986% [2.6965s]
+Epoch:51/100 	train_loss:12.5485	valid_loss:484.6659	triplet_f1:58.1105% [2.7747s]
+Epoch:52/100 	train_loss:11.7910	valid_loss:413.4095	triplet_f1:61.9938% [2.7217s]
+Epoch:53/100 	train_loss:13.0657	valid_loss:477.7933	triplet_f1:58.9065% [2.7049s]
+Epoch:54/100 	train_loss:11.2672	valid_loss:514.1582	triplet_f1:57.3013% [2.7320s]
+Epoch:55/100 	train_loss:10.3004	valid_loss:486.4360	triplet_f1:58.3916% [2.7505s]
+Epoch:56/100 	train_loss:9.8104	valid_loss:475.0455	triplet_f1:59.9002% [2.7119s]
+Epoch:57/100 	train_loss:9.4271	valid_loss:454.3436	triplet_f1:60.3648% [2.7571s]
+Epoch:58/100 	train_loss:9.2110	valid_loss:482.9669	triplet_f1:59.7540% [2.7429s]
+Epoch:59/100 	train_loss:11.2016	valid_loss:465.3124	triplet_f1:59.8967% [2.7033s]
+Epoch:60/100 	train_loss:13.2734	valid_loss:503.3514	triplet_f1:56.4831% [2.7145s]
+Epoch:61/100 	train_loss:12.6410	valid_loss:453.9978	triplet_f1:61.0169% [2.7115s]
+Epoch:62/100 	train_loss:12.0563	valid_loss:503.3421	triplet_f1:59.1304% [2.7397s]
+Epoch:63/100 	train_loss:10.7456	valid_loss:501.1882	triplet_f1:57.5972% [2.7333s]
+Epoch:64/100 	train_loss:9.8454	valid_loss:483.6148	triplet_f1:59.0674% [2.7481s]
+Epoch:65/100 	train_loss:10.0722	valid_loss:524.2417	triplet_f1:57.0934% [2.6972s]
+Epoch:66/100 	train_loss:9.4141	valid_loss:470.4447	triplet_f1:59.0837% [2.7200s]
+Epoch:67/100 	train_loss:11.5813	valid_loss:486.9651	triplet_f1:59.7738% [2.7560s]
+Epoch:68/100 	train_loss:18.9147	valid_loss:587.6295	triplet_f1:59.5156% [2.7439s]
+Epoch:69/100 	train_loss:21.0866	valid_loss:526.4463	triplet_f1:58.4507% [2.7340s]
+Epoch:70/100 	train_loss:27.3307	valid_loss:461.9391	triplet_f1:57.0940% [2.7515s]
+Epoch:71/100 	train_loss:12.8747	valid_loss:460.6568	triplet_f1:58.4348% [2.7470s]
+Epoch:72/100 	train_loss:9.2307	valid_loss:445.2344	triplet_f1:60.0343% [2.7027s]
+Epoch:73/100 	train_loss:10.2393	valid_loss:459.9550	triplet_f1:61.2698% [2.7235s]
+Epoch:74/100 	train_loss:8.8055	valid_loss:463.4957	triplet_f1:59.7623% [2.7323s]
+Epoch:75/100 	train_loss:10.4886	valid_loss:509.6448	triplet_f1:60.7460% [2.7579s]
+Epoch:76/100 	train_loss:11.3635	valid_loss:543.8593	triplet_f1:58.8235% [2.7418s]
+Epoch:77/100 	train_loss:8.0688	valid_loss:524.2998	triplet_f1:60.1036% [2.6946s]
+Epoch:78/100 	train_loss:14.9791	valid_loss:535.3484	triplet_f1:60.5096% [2.7178s]
+Epoch:79/100 	train_loss:12.6571	valid_loss:534.4875	triplet_f1:60.2787% [2.7329s]
+Epoch:80/100 	train_loss:14.1965	valid_loss:549.7918	triplet_f1:59.6552% [2.7394s]
+Epoch:81/100 	train_loss:8.8309	valid_loss:499.2089	triplet_f1:61.4379% [2.7278s]
+Epoch:82/100 	train_loss:8.6312	valid_loss:523.7413	triplet_f1:62.5205% [2.7426s]
+Epoch:83/100 	train_loss:7.9444	valid_loss:481.6054	triplet_f1:61.5385% [2.7687s]
+Epoch:84/100 	train_loss:7.9935	valid_loss:525.9568	triplet_f1:61.2245% [2.7180s]
+Epoch:85/100 	train_loss:8.4252	valid_loss:533.9795	triplet_f1:60.4096% [2.7467s]
+Epoch:86/100 	train_loss:7.1890	valid_loss:507.8076	triplet_f1:61.3793% [2.7350s]
+Epoch:87/100 	train_loss:7.7803	valid_loss:567.3857	triplet_f1:59.3368% [2.7530s]
+Epoch:88/100 	train_loss:8.9166	valid_loss:533.1283	triplet_f1:62.0000% [2.6876s]
+Epoch:89/100 	train_loss:7.8426	valid_loss:516.6000	triplet_f1:63.0265% [2.7125s]
+Epoch:90/100 	train_loss:7.9865	valid_loss:501.3533	triplet_f1:62.0000% [2.7405s]
+Epoch:91/100 	train_loss:7.0772	valid_loss:565.7400	triplet_f1:60.9428% [2.7497s]
+Epoch:92/100 	train_loss:6.5610	valid_loss:561.4158	triplet_f1:61.1966% [2.7101s]
+Epoch:93/100 	train_loss:8.9788	valid_loss:567.1599	triplet_f1:59.0051% [2.7400s]
+Epoch:94/100 	train_loss:6.6310	valid_loss:602.0137	triplet_f1:61.1399% [2.7406s]
+Epoch:95/100 	train_loss:6.6771	valid_loss:567.4607	triplet_f1:60.8696% [2.7189s]
+Epoch:96/100 	train_loss:8.3868	valid_loss:563.6777	triplet_f1:60.1600% [2.7261s]
+Epoch:97/100 	train_loss:16.1293	valid_loss:551.3778	triplet_f1:57.4956% [2.7415s]
+Epoch:98/100 	train_loss:14.8187	valid_loss:565.2396	triplet_f1:60.0985% [2.7201s]
+Epoch:99/100 	train_loss:19.8290	valid_loss:682.2513	triplet_f1:55.2632% [2.7091s]
+Epoch:100/100 	train_loss:25.4821	valid_loss:636.2453	triplet_f1:60.4730% [2.7425s]
+> Testing...
+------------------------------
+Dataset:14lap, test_f1:61.79% | version:3D lr:0.001 bert_lr:2e-05 seed:64 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	79.30%	63.03%	70.24%
+*TRIPLET	69.77%	55.45%	61.79%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	72.26%	68.51%	70.34%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	65.38%	40.48%	50.00%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	69.78%	44.09%	54.04%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	38.46%	21.74%	27.78%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	79.55%	84.88%	82.13%
+  OTE   	78.22%	83.33%	80.69%
+
+=========================================================================================================
+Directory saved_models/14res do not exist; creating...
+> label2id: {'N-N-N': 0, 'N-N-NEG': 1, 'N-N-NEU': 2, 'N-N-POS': 3, 'N-O-N': 4, 'N-O-NEG': 5, 'N-O-NEU': 6, 'N-O-POS': 7, 'A-N-N': 8, 'A-N-NEG': 9, 'A-N-NEU': 10, 'A-N-POS': 11, 'A-O-N': 12, 'A-O-NEG': 13, 'A-O-NEU': 14, 'A-O-POS': 15}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.],
+       device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14res', version='3D', seed=87, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=16)
+> Load model...
+> # parameters 109645656
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:641.9655	valid_loss:274.3826	triplet_f1:36.0775% [3.5696s]
+Epoch:2/100 	train_loss:255.0812	valid_loss:214.9610	triplet_f1:45.6818% [3.5866s]
+Epoch:3/100 	train_loss:199.6920	valid_loss:190.9399	triplet_f1:50.1139% [3.5449s]
+Epoch:4/100 	train_loss:162.9852	valid_loss:206.1916	triplet_f1:46.7822% [3.5832s]
+Epoch:5/100 	train_loss:135.9645	valid_loss:182.4592	triplet_f1:58.3762% [3.5839s]
+Epoch:6/100 	train_loss:114.4175	valid_loss:187.7045	triplet_f1:58.0288% [3.5611s]
+Epoch:7/100 	train_loss:96.0200	valid_loss:182.7176	triplet_f1:60.3550% [3.5803s]
+Epoch:8/100 	train_loss:121.0037	valid_loss:186.3471	triplet_f1:61.5992% [3.5699s]
+Epoch:9/100 	train_loss:76.1250	valid_loss:200.9938	triplet_f1:60.2410% [3.5805s]
+Epoch:10/100 	train_loss:65.7918	valid_loss:215.6113	triplet_f1:59.7793% [3.6131s]
+Epoch:11/100 	train_loss:56.8428	valid_loss:205.0534	triplet_f1:59.8240% [3.5753s]
+Epoch:12/100 	train_loss:51.7730	valid_loss:232.0724	triplet_f1:60.7516% [3.5679s]
+Epoch:13/100 	train_loss:50.1035	valid_loss:225.9142	triplet_f1:61.9048% [3.6041s]
+Epoch:14/100 	train_loss:41.5727	valid_loss:241.7034	triplet_f1:60.6625% [3.6154s]
+Epoch:15/100 	train_loss:40.0200	valid_loss:423.3973	triplet_f1:48.1928% [3.6114s]
+Epoch:16/100 	train_loss:59.5717	valid_loss:247.9479	triplet_f1:61.4925% [3.5804s]
+Epoch:17/100 	train_loss:30.2938	valid_loss:274.5819	triplet_f1:60.7903% [3.5876s]
+Epoch:18/100 	train_loss:24.6175	valid_loss:273.2686	triplet_f1:62.7723% [3.5912s]
+Epoch:19/100 	train_loss:23.8815	valid_loss:289.7795	triplet_f1:62.5126% [3.6055s]
+Epoch:20/100 	train_loss:22.8533	valid_loss:288.8644	triplet_f1:62.6122% [3.5852s]
+Epoch:21/100 	train_loss:18.9605	valid_loss:314.0556	triplet_f1:61.6339% [3.5795s]
+Epoch:22/100 	train_loss:18.6100	valid_loss:321.6735	triplet_f1:63.0137% [3.5813s]
+Epoch:23/100 	train_loss:17.2089	valid_loss:306.3983	triplet_f1:63.0682% [3.6065s]
+Epoch:24/100 	train_loss:15.9417	valid_loss:313.0821	triplet_f1:63.3528% [3.5963s]
+Epoch:25/100 	train_loss:16.8657	valid_loss:331.0420	triplet_f1:62.1963% [3.5808s]
+Epoch:26/100 	train_loss:14.5145	valid_loss:320.7737	triplet_f1:62.0690% [3.5816s]
+Epoch:27/100 	train_loss:14.1916	valid_loss:350.3723	triplet_f1:61.7108% [3.5912s]
+Epoch:28/100 	train_loss:12.4437	valid_loss:369.5556	triplet_f1:62.7016% [3.5752s]
+Epoch:29/100 	train_loss:15.4745	valid_loss:361.3817	triplet_f1:62.5631% [3.5915s]
+Epoch:30/100 	train_loss:15.6605	valid_loss:376.9290	triplet_f1:61.1282% [3.5934s]
+Epoch:31/100 	train_loss:16.7660	valid_loss:366.7901	triplet_f1:62.3350% [3.5682s]
+Epoch:32/100 	train_loss:19.8066	valid_loss:362.4104	triplet_f1:60.5678% [3.5693s]
+Epoch:33/100 	train_loss:18.1026	valid_loss:347.9756	triplet_f1:62.8795% [3.5756s]
+Epoch:34/100 	train_loss:20.2141	valid_loss:324.2273	triplet_f1:64.8402% [3.5633s]
+Epoch:35/100 	train_loss:16.2500	valid_loss:342.9612	triplet_f1:64.9855% [3.5994s]
+Epoch:36/100 	train_loss:14.6378	valid_loss:366.2441	triplet_f1:62.6243% [3.6163s]
+Epoch:37/100 	train_loss:18.1143	valid_loss:370.2438	triplet_f1:64.3701% [3.6013s]
+Epoch:38/100 	train_loss:13.1982	valid_loss:334.7562	triplet_f1:64.3744% [3.5676s]
+Epoch:39/100 	train_loss:10.5047	valid_loss:356.2812	triplet_f1:63.1992% [3.5788s]
+Epoch:40/100 	train_loss:10.5978	valid_loss:388.1083	triplet_f1:62.8345% [3.5763s]
+Epoch:41/100 	train_loss:9.6278	valid_loss:377.2409	triplet_f1:63.3761% [3.5654s]
+Epoch:42/100 	train_loss:11.9876	valid_loss:381.0126	triplet_f1:63.7848% [3.5502s]
+Epoch:43/100 	train_loss:8.9394	valid_loss:371.4070	triplet_f1:62.8571% [3.5500s]
+Epoch:44/100 	train_loss:8.5547	valid_loss:415.8606	triplet_f1:62.0278% [3.5870s]
+Epoch:45/100 	train_loss:9.1602	valid_loss:510.0585	triplet_f1:60.2358% [3.5848s]
+Epoch:46/100 	train_loss:14.5683	valid_loss:411.5133	triplet_f1:63.9442% [3.5909s]
+Epoch:47/100 	train_loss:11.6849	valid_loss:392.9595	triplet_f1:62.3907% [3.5883s]
+Epoch:48/100 	train_loss:12.9476	valid_loss:402.5539	triplet_f1:62.7566% [3.5713s]
+Epoch:49/100 	train_loss:10.3898	valid_loss:410.3559	triplet_f1:62.8918% [3.5794s]
+Epoch:50/100 	train_loss:7.9200	valid_loss:423.7630	triplet_f1:64.6125% [3.5650s]
+Epoch:51/100 	train_loss:9.2175	valid_loss:438.0579	triplet_f1:63.5317% [3.5777s]
+Epoch:52/100 	train_loss:9.1410	valid_loss:413.6200	triplet_f1:65.0718% [3.6061s]
+Epoch:53/100 	train_loss:7.6289	valid_loss:403.2082	triplet_f1:64.5533% [3.5837s]
+Epoch:54/100 	train_loss:6.9385	valid_loss:459.3033	triplet_f1:64.1700% [3.5946s]
+Epoch:55/100 	train_loss:9.9151	valid_loss:433.7451	triplet_f1:62.9630% [3.6093s]
+Epoch:56/100 	train_loss:19.9839	valid_loss:486.8018	triplet_f1:64.0078% [3.5567s]
+Epoch:57/100 	train_loss:20.5862	valid_loss:413.5610	triplet_f1:63.8104% [3.5908s]
+Epoch:58/100 	train_loss:13.1828	valid_loss:461.9846	triplet_f1:62.4631% [3.5931s]
+Epoch:59/100 	train_loss:9.9028	valid_loss:464.6122	triplet_f1:63.2323% [3.5999s]
+Epoch:60/100 	train_loss:6.8852	valid_loss:448.7933	triplet_f1:64.9302% [3.5834s]
+Epoch:61/100 	train_loss:8.8844	valid_loss:439.1756	triplet_f1:64.4914% [3.5996s]
+Epoch:62/100 	train_loss:6.6107	valid_loss:462.2212	triplet_f1:63.1068% [3.6063s]
+Epoch:63/100 	train_loss:8.5336	valid_loss:485.8575	triplet_f1:65.1385% [3.6130s]
+Epoch:64/100 	train_loss:10.4128	valid_loss:465.3816	triplet_f1:62.3697% [3.6050s]
+Epoch:65/100 	train_loss:9.5806	valid_loss:529.9286	triplet_f1:61.6162% [3.5511s]
+Epoch:66/100 	train_loss:8.0282	valid_loss:444.6935	triplet_f1:63.9252% [3.6051s]
+Epoch:67/100 	train_loss:7.9841	valid_loss:486.7080	triplet_f1:61.9662% [3.6058s]
+Epoch:68/100 	train_loss:5.7980	valid_loss:480.7876	triplet_f1:63.1681% [3.6020s]
+Epoch:69/100 	train_loss:9.2347	valid_loss:456.8040	triplet_f1:64.3123% [3.6044s]
+Epoch:70/100 	train_loss:7.9464	valid_loss:552.4159	triplet_f1:63.6538% [3.5940s]
+Epoch:71/100 	train_loss:7.1260	valid_loss:517.4050	triplet_f1:63.1376% [3.6191s]
+Epoch:72/100 	train_loss:8.9964	valid_loss:586.7195	triplet_f1:62.2318% [3.6247s]
+Epoch:73/100 	train_loss:9.3781	valid_loss:486.4303	triplet_f1:63.3645% [3.5692s]
+Epoch:74/100 	train_loss:8.1649	valid_loss:506.9343	triplet_f1:64.1148% [3.5645s]
+Epoch:75/100 	train_loss:8.0281	valid_loss:493.5921	triplet_f1:65.1584% [3.5970s]
+Epoch:76/100 	train_loss:9.8809	valid_loss:503.0289	triplet_f1:63.4890% [3.6002s]
+Epoch:77/100 	train_loss:9.9522	valid_loss:470.7618	triplet_f1:63.8835% [3.6044s]
+Epoch:78/100 	train_loss:7.6478	valid_loss:519.8296	triplet_f1:64.7706% [3.6010s]
+Epoch:79/100 	train_loss:7.8549	valid_loss:565.7196	triplet_f1:62.5731% [3.5969s]
+Epoch:80/100 	train_loss:11.4665	valid_loss:542.5727	triplet_f1:64.5333% [3.5874s]
+Epoch:81/100 	train_loss:11.7711	valid_loss:513.0135	triplet_f1:62.1881% [3.5779s]
+Epoch:82/100 	train_loss:9.4893	valid_loss:560.5022	triplet_f1:63.3301% [3.5924s]
+Epoch:83/100 	train_loss:11.4202	valid_loss:529.4246	triplet_f1:63.7993% [3.5829s]
+Epoch:84/100 	train_loss:10.9890	valid_loss:618.8093	triplet_f1:63.2411% [3.6108s]
+Epoch:85/100 	train_loss:9.3619	valid_loss:513.7331	triplet_f1:63.6711% [3.6146s]
+Epoch:86/100 	train_loss:7.9880	valid_loss:606.9738	triplet_f1:61.6510% [3.5961s]
+Epoch:87/100 	train_loss:8.4546	valid_loss:506.2680	triplet_f1:63.3205% [3.5644s]
+Epoch:88/100 	train_loss:7.2529	valid_loss:533.3435	triplet_f1:61.9883% [3.5836s]
+Epoch:89/100 	train_loss:6.2833	valid_loss:518.2579	triplet_f1:62.8622% [3.6073s]
+Epoch:90/100 	train_loss:7.9674	valid_loss:585.1054	triplet_f1:64.3068% [3.5764s]
+Epoch:91/100 	train_loss:10.8960	valid_loss:681.5635	triplet_f1:61.3924% [3.5518s]
+Epoch:92/100 	train_loss:9.9621	valid_loss:549.8982	triplet_f1:65.5863% [3.6030s]
+Epoch:93/100 	train_loss:8.1637	valid_loss:516.6101	triplet_f1:63.4545% [3.5714s]
+Epoch:94/100 	train_loss:6.1391	valid_loss:513.9461	triplet_f1:63.5585% [3.6316s]
+Epoch:95/100 	train_loss:6.1351	valid_loss:518.5294	triplet_f1:63.6535% [3.5834s]
+Epoch:96/100 	train_loss:7.1566	valid_loss:557.0556	triplet_f1:65.2133% [3.6011s]
+Epoch:97/100 	train_loss:8.2845	valid_loss:503.5886	triplet_f1:65.3211% [3.6041s]
+Epoch:98/100 	train_loss:7.7220	valid_loss:541.3817	triplet_f1:62.4381% [3.5821s]
+Epoch:99/100 	train_loss:8.8890	valid_loss:505.9095	triplet_f1:64.4550% [3.6192s]
+Epoch:100/100 	train_loss:7.6635	valid_loss:564.8999	triplet_f1:65.1026% [3.5977s]
+> Testing...
+------------------------------
+Dataset:14res, test_f1:74.16% | version:3D lr:0.001 bert_lr:2e-05 seed:87 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	84.03%	74.65%	79.06%
+*TRIPLET	78.82%	70.02%	74.16%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	81.99%	79.00%	80.47%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	70.80%	52.52%	60.31%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	71.50%	53.16%	60.98%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	63.49%	43.96%	51.95%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	82.57%	89.39%	85.84%
+  OTE   	84.18%	89.11%	86.58%
+
+=========================================================================================================
+Directory saved_models/15res do not exist; creating...
+> label2id: {'N-N-N': 0, 'N-N-NEG': 1, 'N-N-NEU': 2, 'N-N-POS': 3, 'N-O-N': 4, 'N-O-NEG': 5, 'N-O-NEU': 6, 'N-O-POS': 7, 'A-N-N': 8, 'A-N-NEG': 9, 'A-N-NEU': 10, 'A-N-POS': 11, 'A-O-N': 12, 'A-O-NEG': 13, 'A-O-NEU': 14, 'A-O-POS': 15}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.],
+       device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='15res', version='3D', seed=1018, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=16)
+> Load model...
+> # parameters 109645656
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:873.0579	valid_loss:344.9193	triplet_f1:0.0000% [1.6474s]
+Epoch:2/100 	train_loss:300.8761	valid_loss:236.8651	triplet_f1:30.4348% [1.6418s]
+Epoch:3/100 	train_loss:221.5311	valid_loss:187.5934	triplet_f1:37.2493% [1.6586s]
+Epoch:4/100 	train_loss:173.6145	valid_loss:164.8988	triplet_f1:50.0000% [1.6468s]
+Epoch:5/100 	train_loss:187.9803	valid_loss:255.1058	triplet_f1:46.2136% [1.6721s]
+Epoch:6/100 	train_loss:187.0766	valid_loss:157.8678	triplet_f1:53.3679% [1.6581s]
+Epoch:7/100 	train_loss:125.1745	valid_loss:152.8971	triplet_f1:59.5745% [1.6654s]
+Epoch:8/100 	train_loss:103.3230	valid_loss:142.8567	triplet_f1:61.4657% [1.6430s]
+Epoch:9/100 	train_loss:87.4683	valid_loss:144.4112	triplet_f1:59.9496% [1.6512s]
+Epoch:10/100 	train_loss:73.8193	valid_loss:141.2188	triplet_f1:65.7596% [1.6478s]
+Epoch:11/100 	train_loss:63.7824	valid_loss:141.8248	triplet_f1:65.0334% [1.6680s]
+Epoch:12/100 	train_loss:59.9048	valid_loss:149.2961	triplet_f1:63.5762% [1.6596s]
+Epoch:13/100 	train_loss:56.7466	valid_loss:159.6270	triplet_f1:65.9292% [1.6138s]
+Epoch:14/100 	train_loss:58.5263	valid_loss:154.8935	triplet_f1:64.1509% [1.6616s]
+Epoch:15/100 	train_loss:49.0937	valid_loss:154.4036	triplet_f1:67.9739% [1.6428s]
+Epoch:16/100 	train_loss:38.8926	valid_loss:170.0458	triplet_f1:63.7681% [1.6506s]
+Epoch:17/100 	train_loss:31.4031	valid_loss:166.5971	triplet_f1:67.4365% [1.6535s]
+Epoch:18/100 	train_loss:27.4707	valid_loss:171.6072	triplet_f1:65.7534% [1.6669s]
+Epoch:19/100 	train_loss:45.2532	valid_loss:185.9702	triplet_f1:65.2278% [1.6313s]
+Epoch:20/100 	train_loss:31.8445	valid_loss:194.0546	triplet_f1:65.0485% [1.6642s]
+Epoch:21/100 	train_loss:23.6669	valid_loss:191.1729	triplet_f1:66.6667% [1.6467s]
+Epoch:22/100 	train_loss:22.0348	valid_loss:202.8019	triplet_f1:67.3031% [1.6532s]
+Epoch:23/100 	train_loss:20.8041	valid_loss:199.3917	triplet_f1:68.5225% [1.6597s]
+Epoch:24/100 	train_loss:19.3439	valid_loss:196.4417	triplet_f1:66.5227% [1.6532s]
+Epoch:25/100 	train_loss:15.1454	valid_loss:202.6306	triplet_f1:68.7927% [1.6485s]
+Epoch:26/100 	train_loss:14.7284	valid_loss:196.8522	triplet_f1:67.9739% [1.6625s]
+Epoch:27/100 	train_loss:14.4630	valid_loss:215.2117	triplet_f1:67.8899% [1.6356s]
+Epoch:28/100 	train_loss:14.5955	valid_loss:210.9589	triplet_f1:69.4878% [1.6568s]
+Epoch:29/100 	train_loss:12.0075	valid_loss:229.3644	triplet_f1:68.3036% [1.6797s]
+Epoch:30/100 	train_loss:11.3614	valid_loss:208.9734	triplet_f1:68.9805% [1.6291s]
+Epoch:31/100 	train_loss:9.5755	valid_loss:217.5737	triplet_f1:70.5882% [1.6494s]
+Epoch:32/100 	train_loss:9.9574	valid_loss:228.0640	triplet_f1:68.7640% [1.6615s]
+Epoch:33/100 	train_loss:11.9385	valid_loss:232.7241	triplet_f1:69.6833% [1.6497s]
+Epoch:34/100 	train_loss:17.0315	valid_loss:228.6297	triplet_f1:68.5057% [1.6515s]
+Epoch:35/100 	train_loss:11.8593	valid_loss:234.8443	triplet_f1:68.5969% [1.6495s]
+Epoch:36/100 	train_loss:11.4546	valid_loss:253.8527	triplet_f1:67.7725% [1.6383s]
+Epoch:37/100 	train_loss:8.7447	valid_loss:269.8270	triplet_f1:68.5579% [1.6597s]
+Epoch:38/100 	train_loss:9.8911	valid_loss:244.6977	triplet_f1:69.0909% [1.6427s]
+Epoch:39/100 	train_loss:8.6065	valid_loss:267.0030	triplet_f1:68.1818% [1.6554s]
+Epoch:40/100 	train_loss:7.7798	valid_loss:242.8225	triplet_f1:70.0229% [1.6408s]
+Epoch:41/100 	train_loss:7.5666	valid_loss:246.4748	triplet_f1:70.2586% [1.6561s]
+Epoch:42/100 	train_loss:8.4250	valid_loss:254.4818	triplet_f1:70.0893% [1.6590s]
+Epoch:43/100 	train_loss:7.7497	valid_loss:279.3397	triplet_f1:70.1357% [1.6630s]
+Epoch:44/100 	train_loss:9.0515	valid_loss:263.1890	triplet_f1:67.7291% [1.6571s]
+Epoch:45/100 	train_loss:15.5842	valid_loss:259.9421	triplet_f1:68.7500% [1.6673s]
+Epoch:46/100 	train_loss:14.3725	valid_loss:272.8188	triplet_f1:69.7248% [1.6537s]
+Epoch:47/100 	train_loss:12.8804	valid_loss:259.6367	triplet_f1:67.6991% [1.6561s]
+Epoch:48/100 	train_loss:11.3922	valid_loss:253.9333	triplet_f1:71.6738% [1.6456s]
+Epoch:49/100 	train_loss:7.6905	valid_loss:271.4377	triplet_f1:70.8241% [1.6700s]
+Epoch:50/100 	train_loss:7.8362	valid_loss:269.1118	triplet_f1:70.4545% [1.6410s]
+Epoch:51/100 	train_loss:6.0331	valid_loss:269.9993	triplet_f1:68.5590% [1.6474s]
+Epoch:52/100 	train_loss:5.9846	valid_loss:291.7581	triplet_f1:69.0141% [1.6595s]
+Epoch:53/100 	train_loss:5.9021	valid_loss:251.4006	triplet_f1:71.1497% [1.6624s]
+Epoch:54/100 	train_loss:6.1979	valid_loss:261.0640	triplet_f1:69.8482% [1.6625s]
+Epoch:55/100 	train_loss:11.6247	valid_loss:255.9898	triplet_f1:70.7207% [1.6572s]
+Epoch:56/100 	train_loss:9.9512	valid_loss:273.3970	triplet_f1:68.1614% [1.6547s]
+Epoch:57/100 	train_loss:6.3412	valid_loss:274.2287	triplet_f1:68.9038% [1.6669s]
+Epoch:58/100 	train_loss:7.2111	valid_loss:312.8535	triplet_f1:69.7460% [1.6628s]
+Epoch:59/100 	train_loss:12.1633	valid_loss:271.9466	triplet_f1:69.1589% [1.6557s]
+Epoch:60/100 	train_loss:6.0058	valid_loss:250.8261	triplet_f1:71.8182% [1.6554s]
+Epoch:61/100 	train_loss:5.2411	valid_loss:286.4274	triplet_f1:70.5618% [1.6499s]
+Epoch:62/100 	train_loss:5.9470	valid_loss:253.7680	triplet_f1:68.4096% [1.6692s]
+Epoch:63/100 	train_loss:4.8190	valid_loss:283.3773	triplet_f1:69.0110% [1.6649s]
+Epoch:64/100 	train_loss:4.8009	valid_loss:287.0172	triplet_f1:68.6695% [1.6639s]
+Epoch:65/100 	train_loss:4.2982	valid_loss:306.9504	triplet_f1:70.1595% [1.6453s]
+Epoch:66/100 	train_loss:5.5733	valid_loss:285.0634	triplet_f1:68.4807% [1.6693s]
+Epoch:67/100 	train_loss:6.1372	valid_loss:284.5243	triplet_f1:68.8742% [1.6671s]
+Epoch:68/100 	train_loss:8.9510	valid_loss:287.9815	triplet_f1:68.4096% [1.6616s]
+Epoch:69/100 	train_loss:6.5904	valid_loss:257.5564	triplet_f1:70.7692% [1.6327s]
+Epoch:70/100 	train_loss:12.0876	valid_loss:297.1423	triplet_f1:68.2713% [1.6495s]
+Epoch:71/100 	train_loss:13.7664	valid_loss:302.3717	triplet_f1:68.0328% [1.6407s]
+Epoch:72/100 	train_loss:13.5791	valid_loss:294.0703	triplet_f1:68.6825% [1.6646s]
+Epoch:73/100 	train_loss:8.2758	valid_loss:320.9668	triplet_f1:69.0476% [1.6505s]
+Epoch:74/100 	train_loss:30.4902	valid_loss:300.2979	triplet_f1:67.4473% [1.6536s]
+Epoch:75/100 	train_loss:20.5857	valid_loss:294.6226	triplet_f1:66.9643% [1.6471s]
+Epoch:76/100 	train_loss:14.2458	valid_loss:278.1263	triplet_f1:70.0665% [1.6583s]
+Epoch:77/100 	train_loss:7.2248	valid_loss:267.6100	triplet_f1:68.1514% [1.6694s]
+Epoch:78/100 	train_loss:5.7969	valid_loss:305.1882	triplet_f1:67.5615% [1.6688s]
+Epoch:79/100 	train_loss:3.5173	valid_loss:318.1620	triplet_f1:68.0180% [1.6493s]
+Epoch:80/100 	train_loss:5.3339	valid_loss:349.9136	triplet_f1:70.3196% [1.6459s]
+Epoch:81/100 	train_loss:3.5363	valid_loss:304.9346	triplet_f1:70.3297% [1.6484s]
+Epoch:82/100 	train_loss:3.2807	valid_loss:294.9847	triplet_f1:69.3966% [1.6385s]
+Epoch:83/100 	train_loss:3.0958	valid_loss:322.3165	triplet_f1:70.8520% [1.6438s]
+Epoch:84/100 	train_loss:5.4645	valid_loss:313.1509	triplet_f1:70.5128% [1.6521s]
+Epoch:85/100 	train_loss:5.0056	valid_loss:356.8835	triplet_f1:71.3636% [1.6575s]
+Epoch:86/100 	train_loss:4.0933	valid_loss:315.7980	triplet_f1:71.1111% [1.6548s]
+Epoch:87/100 	train_loss:5.3310	valid_loss:293.5872	triplet_f1:72.4947% [1.6570s]
+Epoch:88/100 	train_loss:3.4836	valid_loss:305.6251	triplet_f1:69.9571% [1.6603s]
+Epoch:89/100 	train_loss:4.2078	valid_loss:302.2829	triplet_f1:72.1030% [1.6726s]
+Epoch:90/100 	train_loss:5.8944	valid_loss:328.0909	triplet_f1:70.3448% [1.6534s]
+Epoch:91/100 	train_loss:17.4117	valid_loss:313.8131	triplet_f1:69.2473% [1.6458s]
+Epoch:92/100 	train_loss:15.8224	valid_loss:303.2729	triplet_f1:67.6056% [1.6533s]
+Epoch:93/100 	train_loss:12.6987	valid_loss:408.2318	triplet_f1:68.8836% [1.6564s]
+Epoch:94/100 	train_loss:8.2324	valid_loss:286.3226	triplet_f1:70.2820% [1.6484s]
+Epoch:95/100 	train_loss:15.9325	valid_loss:357.4523	triplet_f1:66.2879% [1.6574s]
+Epoch:96/100 	train_loss:10.8184	valid_loss:327.7047	triplet_f1:71.3004% [1.6471s]
+Epoch:97/100 	train_loss:3.8965	valid_loss:329.2209	triplet_f1:69.9332% [1.6708s]
+Epoch:98/100 	train_loss:6.4490	valid_loss:298.3737	triplet_f1:70.3158% [1.6579s]
+Epoch:99/100 	train_loss:5.3685	valid_loss:354.4675	triplet_f1:70.0229% [1.6486s]
+Epoch:100/100 	train_loss:4.2438	valid_loss:317.5141	triplet_f1:70.3863% [1.6545s]
+> Testing...
+------------------------------
+Dataset:15res, test_f1:65.23% | version:3D lr:0.001 bert_lr:2e-05 seed:1018 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	78.99%	64.33%	70.91%
+*TRIPLET	72.66%	59.18%	65.23%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	78.23%	65.32%	71.19%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	63.27%	49.47%	55.52%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	67.31%	51.09%	58.09%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	52.00%	40.62%	45.61%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	79.61%	84.03%	81.76%
+  OTE   	76.89%	83.73%	80.17%
+
+=========================================================================================================
+Directory saved_models/16res do not exist; creating...
+> label2id: {'N-N-N': 0, 'N-N-NEG': 1, 'N-N-NEU': 2, 'N-N-POS': 3, 'N-O-N': 4, 'N-O-NEG': 5, 'N-O-NEU': 6, 'N-O-POS': 7, 'A-N-N': 8, 'A-N-NEG': 9, 'A-N-NEU': 10, 'A-N-POS': 11, 'A-O-N': 12, 'A-O-NEG': 13, 'A-O-NEU': 14, 'A-O-POS': 15}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.],
+       device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='16res', version='3D', seed=1024, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=16)
+> Load model...
+> # parameters 109645656
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:585.9855	valid_loss:240.2484	triplet_f1:30.0469% [2.4141s]
+Epoch:2/100 	train_loss:226.0712	valid_loss:171.8346	triplet_f1:51.1304% [2.3969s]
+Epoch:3/100 	train_loss:171.8556	valid_loss:158.5642	triplet_f1:50.4892% [2.3837s]
+Epoch:4/100 	train_loss:134.7610	valid_loss:147.9342	triplet_f1:57.4913% [2.3961s]
+Epoch:5/100 	train_loss:114.1146	valid_loss:257.9556	triplet_f1:43.3121% [2.4021s]
+Epoch:6/100 	train_loss:136.9093	valid_loss:150.2245	triplet_f1:58.5294% [2.3811s]
+Epoch:7/100 	train_loss:84.0564	valid_loss:131.9408	triplet_f1:63.0225% [2.3978s]
+Epoch:8/100 	train_loss:69.4448	valid_loss:148.8024	triplet_f1:61.7801% [2.4174s]
+Epoch:9/100 	train_loss:55.9281	valid_loss:142.2331	triplet_f1:66.2338% [2.4119s]
+Epoch:10/100 	train_loss:45.8822	valid_loss:143.7058	triplet_f1:65.5949% [2.4046s]
+Epoch:11/100 	train_loss:41.6684	valid_loss:165.2356	triplet_f1:65.7581% [2.4495s]
+Epoch:12/100 	train_loss:33.6657	valid_loss:159.5288	triplet_f1:64.6766% [2.3687s]
+Epoch:13/100 	train_loss:47.7384	valid_loss:167.7175	triplet_f1:67.6375% [2.4010s]
+Epoch:14/100 	train_loss:40.5307	valid_loss:181.5926	triplet_f1:67.2444% [2.4165s]
+Epoch:15/100 	train_loss:29.7789	valid_loss:179.8569	triplet_f1:67.2355% [2.3766s]
+Epoch:16/100 	train_loss:21.9382	valid_loss:199.0757	triplet_f1:67.2414% [2.3865s]
+Epoch:17/100 	train_loss:18.1564	valid_loss:197.9859	triplet_f1:66.3158% [2.4013s]
+Epoch:18/100 	train_loss:16.3980	valid_loss:207.5428	triplet_f1:68.1887% [2.3874s]
+Epoch:19/100 	train_loss:16.9202	valid_loss:192.7157	triplet_f1:66.6667% [2.4246s]
+Epoch:20/100 	train_loss:15.7054	valid_loss:204.7509	triplet_f1:68.2196% [2.3887s]
+Epoch:21/100 	train_loss:14.7050	valid_loss:225.9881	triplet_f1:65.0602% [2.4238s]
+Epoch:22/100 	train_loss:12.8793	valid_loss:226.0518	triplet_f1:66.3430% [2.3931s]
+Epoch:23/100 	train_loss:11.1532	valid_loss:212.7647	triplet_f1:67.1010% [2.3852s]
+Epoch:24/100 	train_loss:12.0399	valid_loss:260.3408	triplet_f1:64.6957% [2.3858s]
+Epoch:25/100 	train_loss:13.2892	valid_loss:243.7724	triplet_f1:66.5574% [2.3693s]
+Epoch:26/100 	train_loss:9.1416	valid_loss:240.1111	triplet_f1:68.4887% [2.3998s]
+Epoch:27/100 	train_loss:9.1655	valid_loss:248.5642	triplet_f1:67.7316% [2.4050s]
+Epoch:28/100 	train_loss:8.1338	valid_loss:255.1088	triplet_f1:66.8863% [2.3816s]
+Epoch:29/100 	train_loss:7.0230	valid_loss:241.4566	triplet_f1:68.1600% [2.4063s]
+Epoch:30/100 	train_loss:9.4331	valid_loss:280.4370	triplet_f1:67.3504% [2.3923s]
+Epoch:31/100 	train_loss:15.3219	valid_loss:247.8159	triplet_f1:67.3401% [2.4136s]
+Epoch:32/100 	train_loss:11.3615	valid_loss:245.6435	triplet_f1:69.1928% [2.3927s]
+Epoch:33/100 	train_loss:9.4633	valid_loss:253.0986	triplet_f1:69.3679% [2.3747s]
+Epoch:34/100 	train_loss:8.8779	valid_loss:250.3453	triplet_f1:69.0096% [2.3934s]
+Epoch:35/100 	train_loss:7.7404	valid_loss:262.3211	triplet_f1:71.0526% [2.3885s]
+Epoch:36/100 	train_loss:6.7538	valid_loss:270.5170	triplet_f1:69.0117% [2.4341s]
+Epoch:37/100 	train_loss:7.8794	valid_loss:260.9521	triplet_f1:69.0438% [2.4012s]
+Epoch:38/100 	train_loss:9.5410	valid_loss:259.3197	triplet_f1:68.4124% [2.3965s]
+Epoch:39/100 	train_loss:32.4433	valid_loss:268.6292	triplet_f1:68.3788% [2.4074s]
+Epoch:40/100 	train_loss:24.2269	valid_loss:332.1673	triplet_f1:64.5833% [2.4213s]
+Epoch:41/100 	train_loss:20.0129	valid_loss:256.6975	triplet_f1:67.8748% [2.3972s]
+Epoch:42/100 	train_loss:10.4874	valid_loss:261.6677	triplet_f1:68.7500% [2.4110s]
+Epoch:43/100 	train_loss:10.4347	valid_loss:270.9793	triplet_f1:69.8835% [2.3968s]
+Epoch:44/100 	train_loss:10.4070	valid_loss:295.5135	triplet_f1:68.8822% [2.4189s]
+Epoch:45/100 	train_loss:8.4336	valid_loss:277.1081	triplet_f1:71.0744% [2.3989s]
+Epoch:46/100 	train_loss:6.7558	valid_loss:276.4568	triplet_f1:70.0997% [2.3560s]
+Epoch:47/100 	train_loss:7.5767	valid_loss:293.1313	triplet_f1:69.8675% [2.4022s]
+Epoch:48/100 	train_loss:4.6771	valid_loss:300.9490	triplet_f1:70.8609% [2.3981s]
+Epoch:49/100 	train_loss:3.5024	valid_loss:289.6194	triplet_f1:70.7846% [2.4033s]
+Epoch:50/100 	train_loss:5.9795	valid_loss:307.9782	triplet_f1:71.0974% [2.4216s]
+Epoch:51/100 	train_loss:6.5626	valid_loss:323.1604	triplet_f1:67.5541% [2.3956s]
+Epoch:52/100 	train_loss:11.3454	valid_loss:377.8585	triplet_f1:63.2541% [2.4032s]
+Epoch:53/100 	train_loss:20.1534	valid_loss:350.4383	triplet_f1:63.3166% [2.3973s]
+Epoch:54/100 	train_loss:23.6816	valid_loss:342.7110	triplet_f1:69.0236% [2.4047s]
+Epoch:55/100 	train_loss:12.7796	valid_loss:296.0701	triplet_f1:69.5375% [2.3868s]
+Epoch:56/100 	train_loss:7.0499	valid_loss:351.3465	triplet_f1:68.6869% [2.3996s]
+Epoch:57/100 	train_loss:4.4571	valid_loss:324.0507	triplet_f1:71.4286% [2.3930s]
+Epoch:58/100 	train_loss:4.8322	valid_loss:291.3603	triplet_f1:71.3396% [2.4104s]
+Epoch:59/100 	train_loss:11.7343	valid_loss:385.4491	triplet_f1:66.7838% [2.3988s]
+Epoch:60/100 	train_loss:9.4029	valid_loss:374.6635	triplet_f1:66.0959% [2.4040s]
+Epoch:61/100 	train_loss:11.4352	valid_loss:285.4581	triplet_f1:70.8075% [2.3975s]
+Epoch:62/100 	train_loss:6.5312	valid_loss:279.0421	triplet_f1:69.0076% [2.3947s]
+Epoch:63/100 	train_loss:6.0674	valid_loss:299.0548	triplet_f1:70.7883% [2.3784s]
+Epoch:64/100 	train_loss:4.7081	valid_loss:304.1754	triplet_f1:69.8565% [2.3784s]
+Epoch:65/100 	train_loss:3.8849	valid_loss:306.1201	triplet_f1:70.5691% [2.3969s]
+Epoch:66/100 	train_loss:4.5448	valid_loss:303.4780	triplet_f1:70.7937% [2.3699s]
+Epoch:67/100 	train_loss:4.9342	valid_loss:325.0968	triplet_f1:70.5298% [2.3922s]
+Epoch:68/100 	train_loss:5.4575	valid_loss:300.5261	triplet_f1:71.8850% [2.3862s]
+Epoch:69/100 	train_loss:5.5485	valid_loss:311.7283	triplet_f1:71.0824% [2.4001s]
+Epoch:70/100 	train_loss:6.4497	valid_loss:290.8358	triplet_f1:71.4514% [2.3639s]
+Epoch:71/100 	train_loss:3.8240	valid_loss:323.7344	triplet_f1:69.3944% [2.3980s]
+Epoch:72/100 	train_loss:3.3712	valid_loss:321.1779	triplet_f1:69.1438% [2.3494s]
+Epoch:73/100 	train_loss:3.1855	valid_loss:339.8038	triplet_f1:68.4298% [2.3933s]
+Epoch:74/100 	train_loss:2.4799	valid_loss:325.1409	triplet_f1:70.1422% [2.3861s]
+Epoch:75/100 	train_loss:4.0977	valid_loss:344.3032	triplet_f1:68.7398% [2.3992s]
+Epoch:76/100 	train_loss:4.5273	valid_loss:335.5713	triplet_f1:70.6436% [2.3952s]
+Epoch:77/100 	train_loss:5.9189	valid_loss:349.1319	triplet_f1:71.0567% [2.3735s]
+Epoch:78/100 	train_loss:13.7181	valid_loss:420.6611	triplet_f1:65.5232% [2.3893s]
+Epoch:79/100 	train_loss:13.4840	valid_loss:359.0625	triplet_f1:67.3367% [2.3893s]
+Epoch:80/100 	train_loss:5.5853	valid_loss:340.4417	triplet_f1:69.6343% [2.3870s]
+Epoch:81/100 	train_loss:5.2084	valid_loss:345.9394	triplet_f1:69.5513% [2.3894s]
+Epoch:82/100 	train_loss:8.7015	valid_loss:365.0896	triplet_f1:68.1672% [2.3953s]
+Epoch:83/100 	train_loss:8.1597	valid_loss:364.6209	triplet_f1:69.5935% [2.3907s]
+Epoch:84/100 	train_loss:5.4118	valid_loss:378.3341	triplet_f1:68.9542% [2.3889s]
+Epoch:85/100 	train_loss:6.9503	valid_loss:405.3880	triplet_f1:69.1318% [2.3788s]
+Epoch:86/100 	train_loss:7.1385	valid_loss:389.8928	triplet_f1:70.2028% [2.3890s]
+Epoch:87/100 	train_loss:5.3369	valid_loss:391.2320	triplet_f1:70.3226% [2.4019s]
+Epoch:88/100 	train_loss:7.7923	valid_loss:425.6800	triplet_f1:65.6716% [2.3973s]
+Epoch:89/100 	train_loss:11.3083	valid_loss:470.8441	triplet_f1:67.6568% [2.3722s]
+Epoch:90/100 	train_loss:9.2278	valid_loss:453.6731	triplet_f1:68.5811% [2.4047s]
+Epoch:91/100 	train_loss:7.8719	valid_loss:415.4941	triplet_f1:68.9441% [2.3947s]
+Epoch:92/100 	train_loss:12.6714	valid_loss:335.3486	triplet_f1:69.4704% [2.3889s]
+Epoch:93/100 	train_loss:28.8890	valid_loss:380.1928	triplet_f1:68.0251% [2.3904s]
+Epoch:94/100 	train_loss:16.7302	valid_loss:416.9570	triplet_f1:71.2575% [2.4011s]
+Epoch:95/100 	train_loss:9.3747	valid_loss:393.7831	triplet_f1:69.9213% [2.4090s]
+Epoch:96/100 	train_loss:8.8174	valid_loss:395.4484	triplet_f1:69.5652% [2.3949s]
+Epoch:97/100 	train_loss:4.9184	valid_loss:341.2209	triplet_f1:71.6511% [2.3951s]
+Epoch:98/100 	train_loss:6.0733	valid_loss:355.1435	triplet_f1:70.3297% [2.3799s]
+Epoch:99/100 	train_loss:6.8453	valid_loss:411.5987	triplet_f1:71.1111% [2.3865s]
+Epoch:100/100 	train_loss:7.5617	valid_loss:438.0583	triplet_f1:69.1200% [2.3971s]
+> Testing...
+------------------------------
+Dataset:16res, test_f1:73.48% | version:3D lr:0.001 bert_lr:2e-05 seed:1024 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	83.54%	77.04%	80.16%
+*TRIPLET	76.58%	70.62%	73.48%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	79.08%	74.71%	76.83%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	71.14%	62.35%	66.46%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	75.83%	70.54%	73.09%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	45.95%	31.48%	37.36%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.20%	88.72%	84.24%
+  OTE   	81.63%	90.74%	85.94%
+
+=========================================================================================================
+> label2id: {'N-N': 0, 'N-NEG': 1, 'N-NEU': 2, 'N-POS': 3, 'O-N': 4, 'O-NEG': 5, 'O-NEU': 6, 'O-POS': 7, 'A-N': 8, 'A-NEG': 9, 'A-NEU': 10, 'A-POS': 11}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14lap', version='2D', seed=73, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=12)
+> Load model...
+> # parameters 109643252
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:839.7731	valid_loss:387.4036	triplet_f1:0.0000% [2.7262s]
+Epoch:2/100 	train_loss:330.6688	valid_loss:253.0135	triplet_f1:21.2560% [2.7096s]
+Epoch:3/100 	train_loss:248.9151	valid_loss:224.2492	triplet_f1:36.0396% [2.7255s]
+Epoch:4/100 	train_loss:206.7634	valid_loss:207.1967	triplet_f1:38.2812% [2.7061s]
+Epoch:5/100 	train_loss:175.2282	valid_loss:207.7424	triplet_f1:39.1667% [2.7216s]
+Epoch:6/100 	train_loss:146.7745	valid_loss:206.7077	triplet_f1:40.7332% [2.7048s]
+Epoch:7/100 	train_loss:129.9899	valid_loss:191.5576	triplet_f1:49.7373% [2.7445s]
+Epoch:8/100 	train_loss:113.5681	valid_loss:220.1552	triplet_f1:48.4751% [2.7166s]
+Epoch:9/100 	train_loss:103.9355	valid_loss:206.7824	triplet_f1:53.0488% [2.7068s]
+Epoch:10/100 	train_loss:87.3266	valid_loss:213.5090	triplet_f1:48.2143% [2.7054s]
+Epoch:11/100 	train_loss:72.3184	valid_loss:209.4668	triplet_f1:53.6412% [2.7270s]
+Epoch:12/100 	train_loss:62.8494	valid_loss:229.7760	triplet_f1:55.3120% [2.7421s]
+Epoch:13/100 	train_loss:56.7364	valid_loss:271.2449	triplet_f1:50.1961% [2.7159s]
+Epoch:14/100 	train_loss:52.9227	valid_loss:256.1409	triplet_f1:53.2860% [2.6762s]
+Epoch:15/100 	train_loss:53.7918	valid_loss:282.3092	triplet_f1:52.8440% [2.7315s]
+Epoch:16/100 	train_loss:47.3822	valid_loss:280.5289	triplet_f1:54.0835% [2.6943s]
+Epoch:17/100 	train_loss:42.2836	valid_loss:268.8487	triplet_f1:54.5455% [2.7132s]
+Epoch:18/100 	train_loss:37.4209	valid_loss:282.3827	triplet_f1:54.1012% [2.7204s]
+Epoch:19/100 	train_loss:38.2604	valid_loss:289.3437	triplet_f1:57.7708% [2.7276s]
+Epoch:20/100 	train_loss:41.1079	valid_loss:290.2759	triplet_f1:56.6434% [2.7163s]
+Epoch:21/100 	train_loss:29.7422	valid_loss:331.3484	triplet_f1:54.6468% [2.7282s]
+Epoch:22/100 	train_loss:28.8605	valid_loss:298.2545	triplet_f1:57.4394% [2.7197s]
+Epoch:23/100 	train_loss:25.1081	valid_loss:297.3318	triplet_f1:59.0759% [2.7098s]
+Epoch:24/100 	train_loss:25.3756	valid_loss:440.3831	triplet_f1:49.9010% [2.7329s]
+Epoch:25/100 	train_loss:27.2560	valid_loss:313.8278	triplet_f1:60.3834% [2.7470s]
+Epoch:26/100 	train_loss:23.5404	valid_loss:324.3849	triplet_f1:59.3548% [2.7328s]
+Epoch:27/100 	train_loss:26.2720	valid_loss:321.6219	triplet_f1:58.4906% [2.7487s]
+Epoch:28/100 	train_loss:23.5910	valid_loss:352.5307	triplet_f1:57.6271% [2.7409s]
+Epoch:29/100 	train_loss:18.9355	valid_loss:375.1129	triplet_f1:57.4468% [2.7240s]
+Epoch:30/100 	train_loss:20.4246	valid_loss:364.0956	triplet_f1:58.8034% [2.7361s]
+Epoch:31/100 	train_loss:17.5019	valid_loss:398.2328	triplet_f1:56.6845% [2.6984s]
+Epoch:32/100 	train_loss:15.8151	valid_loss:374.4625	triplet_f1:58.8850% [2.6939s]
+Epoch:33/100 	train_loss:15.0955	valid_loss:370.8521	triplet_f1:59.7270% [2.7219s]
+Epoch:34/100 	train_loss:17.4213	valid_loss:387.8378	triplet_f1:58.4615% [2.7391s]
+Epoch:35/100 	train_loss:15.7789	valid_loss:387.4401	triplet_f1:59.4128% [2.7380s]
+Epoch:36/100 	train_loss:14.8744	valid_loss:424.1122	triplet_f1:55.5147% [2.7279s]
+Epoch:37/100 	train_loss:19.2503	valid_loss:408.1143	triplet_f1:58.9041% [2.7025s]
+Epoch:38/100 	train_loss:16.2081	valid_loss:417.7142	triplet_f1:60.7383% [2.7238s]
+Epoch:39/100 	train_loss:14.5054	valid_loss:420.7999	triplet_f1:58.1227% [2.7466s]
+Epoch:40/100 	train_loss:14.1630	valid_loss:421.0657	triplet_f1:59.8291% [2.6938s]
+Epoch:41/100 	train_loss:14.6430	valid_loss:402.1529	triplet_f1:60.5475% [2.7124s]
+Epoch:42/100 	train_loss:16.0449	valid_loss:458.7741	triplet_f1:57.4431% [2.7146s]
+Epoch:43/100 	train_loss:16.1180	valid_loss:419.6122	triplet_f1:59.7973% [2.7005s]
+Epoch:44/100 	train_loss:12.9412	valid_loss:450.1748	triplet_f1:58.6387% [2.7070s]
+Epoch:45/100 	train_loss:16.7285	valid_loss:470.4225	triplet_f1:57.8483% [2.7067s]
+Epoch:46/100 	train_loss:16.9041	valid_loss:445.0786	triplet_f1:60.0337% [2.7204s]
+Epoch:47/100 	train_loss:15.3956	valid_loss:458.5825	triplet_f1:59.8967% [2.7104s]
+Epoch:48/100 	train_loss:11.8093	valid_loss:406.9863	triplet_f1:60.2410% [2.7345s]
+Epoch:49/100 	train_loss:10.7539	valid_loss:444.2237	triplet_f1:61.2313% [2.7458s]
+Epoch:50/100 	train_loss:11.0655	valid_loss:442.1709	triplet_f1:61.5863% [2.7493s]
+Epoch:51/100 	train_loss:14.5014	valid_loss:437.9383	triplet_f1:58.6806% [2.7417s]
+Epoch:52/100 	train_loss:14.3259	valid_loss:394.5739	triplet_f1:60.6365% [2.7261s]
+Epoch:53/100 	train_loss:11.2141	valid_loss:446.7250	triplet_f1:58.9474% [2.7151s]
+Epoch:54/100 	train_loss:9.8035	valid_loss:439.5983	triplet_f1:60.3960% [2.7417s]
+Epoch:55/100 	train_loss:9.2954	valid_loss:460.8016	triplet_f1:57.9760% [2.7151s]
+Epoch:56/100 	train_loss:9.7847	valid_loss:508.2793	triplet_f1:57.1429% [2.7306s]
+Epoch:57/100 	train_loss:14.8703	valid_loss:502.2691	triplet_f1:53.9855% [2.7445s]
+Epoch:58/100 	train_loss:17.9907	valid_loss:444.6565	triplet_f1:59.6252% [2.7483s]
+Epoch:59/100 	train_loss:12.6361	valid_loss:466.0152	triplet_f1:59.2083% [2.7534s]
+Epoch:60/100 	train_loss:16.0638	valid_loss:467.9579	triplet_f1:59.7774% [2.7327s]
+Epoch:61/100 	train_loss:20.8210	valid_loss:548.2285	triplet_f1:55.9567% [2.7457s]
+Epoch:62/100 	train_loss:14.6890	valid_loss:437.7793	triplet_f1:58.7436% [2.7477s]
+Epoch:63/100 	train_loss:11.4190	valid_loss:489.4126	triplet_f1:55.4128% [2.7183s]
+Epoch:64/100 	train_loss:10.6684	valid_loss:528.0633	triplet_f1:58.9255% [2.7475s]
+Epoch:65/100 	train_loss:9.5773	valid_loss:434.4414	triplet_f1:60.5351% [2.7215s]
+Epoch:66/100 	train_loss:9.5680	valid_loss:510.7521	triplet_f1:59.8949% [2.7190s]
+Epoch:67/100 	train_loss:8.1092	valid_loss:530.7947	triplet_f1:58.2322% [2.7341s]
+Epoch:68/100 	train_loss:6.9399	valid_loss:468.4523	triplet_f1:59.3750% [2.7029s]
+Epoch:69/100 	train_loss:6.7574	valid_loss:480.0633	triplet_f1:58.9438% [2.7364s]
+Epoch:70/100 	train_loss:6.7914	valid_loss:528.8592	triplet_f1:59.1065% [2.7522s]
+Epoch:71/100 	train_loss:9.3395	valid_loss:523.9328	triplet_f1:58.2759% [2.6904s]
+Epoch:72/100 	train_loss:6.5174	valid_loss:562.5202	triplet_f1:56.3177% [2.7303s]
+Epoch:73/100 	train_loss:8.3554	valid_loss:555.0193	triplet_f1:58.7611% [2.7176s]
+Epoch:74/100 	train_loss:11.5818	valid_loss:481.2709	triplet_f1:58.7436% [2.7175s]
+Epoch:75/100 	train_loss:13.6159	valid_loss:499.9864	triplet_f1:58.0645% [2.7562s]
+Epoch:76/100 	train_loss:14.0588	valid_loss:562.6143	triplet_f1:57.5862% [2.7278s]
+Epoch:77/100 	train_loss:13.9494	valid_loss:504.5814	triplet_f1:60.6965% [2.7034s]
+Epoch:78/100 	train_loss:13.7802	valid_loss:647.3190	triplet_f1:54.9323% [2.7158s]
+Epoch:79/100 	train_loss:16.6173	valid_loss:579.9933	triplet_f1:59.8291% [2.7309s]
+Epoch:80/100 	train_loss:14.5483	valid_loss:594.9625	triplet_f1:56.5138% [2.7465s]
+Epoch:81/100 	train_loss:14.0324	valid_loss:569.7691	triplet_f1:61.8487% [2.7064s]
+Epoch:82/100 	train_loss:10.8759	valid_loss:566.0360	triplet_f1:59.2721% [2.7512s]
+Epoch:83/100 	train_loss:8.0461	valid_loss:517.7887	triplet_f1:61.3599% [2.7171s]
+Epoch:84/100 	train_loss:10.3694	valid_loss:532.0263	triplet_f1:60.2564% [2.7323s]
+Epoch:85/100 	train_loss:13.6046	valid_loss:493.8465	triplet_f1:61.2313% [2.7499s]
+Epoch:86/100 	train_loss:11.9621	valid_loss:614.8179	triplet_f1:59.1150% [2.7466s]
+Epoch:87/100 	train_loss:10.4411	valid_loss:506.8647	triplet_f1:62.9108% [2.7281s]
+Epoch:88/100 	train_loss:10.5241	valid_loss:528.7469	triplet_f1:61.7201% [2.7647s]
+Epoch:89/100 	train_loss:8.5840	valid_loss:509.5147	triplet_f1:62.2581% [2.7437s]
+Epoch:90/100 	train_loss:6.7755	valid_loss:505.0160	triplet_f1:62.4585% [2.7275s]
+Epoch:91/100 	train_loss:7.8988	valid_loss:513.0355	triplet_f1:61.5385% [2.7478s]
+Epoch:92/100 	train_loss:8.1953	valid_loss:553.1188	triplet_f1:62.9060% [2.7332s]
+Epoch:93/100 	train_loss:7.8653	valid_loss:566.2576	triplet_f1:60.6474% [2.7091s]
+Epoch:94/100 	train_loss:7.8272	valid_loss:587.4958	triplet_f1:61.9529% [2.7149s]
+Epoch:95/100 	train_loss:6.0319	valid_loss:558.8435	triplet_f1:61.3599% [2.7180s]
+Epoch:96/100 	train_loss:7.1070	valid_loss:565.3782	triplet_f1:62.1711% [2.7032s]
+Epoch:97/100 	train_loss:6.5304	valid_loss:607.3800	triplet_f1:60.0000% [2.7328s]
+Epoch:98/100 	train_loss:5.7206	valid_loss:552.2647	triplet_f1:62.3211% [2.7130s]
+Epoch:99/100 	train_loss:6.1852	valid_loss:578.3094	triplet_f1:59.5070% [2.7557s]
+Epoch:100/100 	train_loss:7.3945	valid_loss:540.1469	triplet_f1:62.9393% [2.7178s]
+> Testing...
+------------------------------
+Dataset:14lap, test_f1:62.21% | version:2D lr:0.001 bert_lr:2e-05 seed:73 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	81.06%	62.48%	70.56%
+*TRIPLET	71.46%	55.08%	62.21%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	75.90%	65.40%	70.26%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	64.88%	43.25%	51.90%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	67.55%	46.36%	54.99%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	46.34%	27.54%	34.55%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.48%	86.39%	83.33%
+  OTE   	80.37%	82.07%	81.21%
+
+=========================================================================================================
+> label2id: {'N-N': 0, 'N-NEG': 1, 'N-NEU': 2, 'N-POS': 3, 'O-N': 4, 'O-NEG': 5, 'O-NEU': 6, 'O-POS': 7, 'A-N': 8, 'A-NEG': 9, 'A-NEU': 10, 'A-POS': 11}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14res', version='2D', seed=26, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=12)
+> Load model...
+> # parameters 109643252
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:605.6651	valid_loss:276.1584	triplet_f1:23.2012% [3.6037s]
+Epoch:2/100 	train_loss:256.9877	valid_loss:209.0587	triplet_f1:44.2804% [3.5819s]
+Epoch:3/100 	train_loss:203.6090	valid_loss:207.5251	triplet_f1:44.1656% [3.5844s]
+Epoch:4/100 	train_loss:165.0895	valid_loss:185.3328	triplet_f1:53.5274% [3.5764s]
+Epoch:5/100 	train_loss:138.0093	valid_loss:195.8403	triplet_f1:52.6072% [3.5808s]
+Epoch:6/100 	train_loss:217.8346	valid_loss:179.2792	triplet_f1:55.5781% [3.6010s]
+Epoch:7/100 	train_loss:117.3937	valid_loss:179.9605	triplet_f1:58.3673% [3.5922s]
+Epoch:8/100 	train_loss:94.2085	valid_loss:196.6558	triplet_f1:59.2357% [3.5957s]
+Epoch:9/100 	train_loss:92.5863	valid_loss:220.4156	triplet_f1:55.5799% [3.5780s]
+Epoch:10/100 	train_loss:75.0705	valid_loss:208.9000	triplet_f1:62.0202% [3.6147s]
+Epoch:11/100 	train_loss:61.7991	valid_loss:213.6026	triplet_f1:60.1036% [3.5753s]
+Epoch:12/100 	train_loss:52.4298	valid_loss:232.6944	triplet_f1:62.4242% [3.5944s]
+Epoch:13/100 	train_loss:48.8652	valid_loss:230.6677	triplet_f1:62.3427% [3.5670s]
+Epoch:14/100 	train_loss:44.5125	valid_loss:236.5252	triplet_f1:60.2552% [3.5897s]
+Epoch:15/100 	train_loss:35.4052	valid_loss:250.4025	triplet_f1:61.8577% [3.5933s]
+Epoch:16/100 	train_loss:50.1759	valid_loss:248.1282	triplet_f1:61.0945% [3.6051s]
+Epoch:17/100 	train_loss:35.1403	valid_loss:258.5079	triplet_f1:61.2840% [3.6000s]
+Epoch:18/100 	train_loss:27.8596	valid_loss:298.7937	triplet_f1:61.0348% [3.5686s]
+Epoch:19/100 	train_loss:24.0850	valid_loss:278.3720	triplet_f1:62.4277% [3.5930s]
+Epoch:20/100 	train_loss:23.0819	valid_loss:314.7482	triplet_f1:61.2288% [3.5903s]
+Epoch:21/100 	train_loss:20.2708	valid_loss:305.7451	triplet_f1:61.0000% [3.5862s]
+Epoch:22/100 	train_loss:20.1962	valid_loss:312.2360	triplet_f1:63.3528% [3.5613s]
+Epoch:23/100 	train_loss:21.9863	valid_loss:332.0642	triplet_f1:60.0212% [3.5772s]
+Epoch:24/100 	train_loss:19.5381	valid_loss:338.5357	triplet_f1:62.6140% [3.5938s]
+Epoch:25/100 	train_loss:16.7065	valid_loss:335.5262	triplet_f1:61.3169% [3.6123s]
+Epoch:26/100 	train_loss:13.8501	valid_loss:373.1549	triplet_f1:62.4867% [3.5823s]
+Epoch:27/100 	train_loss:14.7733	valid_loss:337.5173	triplet_f1:62.1951% [3.5972s]
+Epoch:28/100 	train_loss:13.0504	valid_loss:351.0170	triplet_f1:61.4770% [3.5964s]
+Epoch:29/100 	train_loss:13.8228	valid_loss:357.3874	triplet_f1:63.9523% [3.5893s]
+Epoch:30/100 	train_loss:23.5186	valid_loss:359.7043	triplet_f1:62.4016% [3.6148s]
+Epoch:31/100 	train_loss:31.2329	valid_loss:436.2214	triplet_f1:57.9618% [3.5815s]
+Epoch:32/100 	train_loss:24.2506	valid_loss:348.6427	triplet_f1:62.4141% [3.5723s]
+Epoch:33/100 	train_loss:16.5491	valid_loss:337.7856	triplet_f1:63.7931% [3.6199s]
+Epoch:34/100 	train_loss:12.7540	valid_loss:379.4217	triplet_f1:62.9371% [3.5908s]
+Epoch:35/100 	train_loss:11.9279	valid_loss:358.9709	triplet_f1:64.0905% [3.6064s]
+Epoch:36/100 	train_loss:16.8168	valid_loss:372.2363	triplet_f1:62.4000% [3.6137s]
+Epoch:37/100 	train_loss:13.0012	valid_loss:388.9901	triplet_f1:63.4538% [3.6115s]
+Epoch:38/100 	train_loss:9.8317	valid_loss:379.1586	triplet_f1:62.1242% [3.5887s]
+Epoch:39/100 	train_loss:6.9705	valid_loss:410.3504	triplet_f1:62.9667% [3.5844s]
+Epoch:40/100 	train_loss:10.1425	valid_loss:397.5272	triplet_f1:62.8918% [3.5936s]
+Epoch:41/100 	train_loss:10.0934	valid_loss:389.2829	triplet_f1:62.7373% [3.5834s]
+Epoch:42/100 	train_loss:8.0071	valid_loss:388.7597	triplet_f1:64.7581% [3.6073s]
+Epoch:43/100 	train_loss:9.1429	valid_loss:398.7140	triplet_f1:64.3275% [3.6146s]
+Epoch:44/100 	train_loss:11.1102	valid_loss:385.0077	triplet_f1:64.4550% [3.5499s]
+Epoch:45/100 	train_loss:10.7054	valid_loss:393.5931	triplet_f1:63.8532% [3.5992s]
+Epoch:46/100 	train_loss:11.8160	valid_loss:415.5810	triplet_f1:64.5349% [3.5901s]
+Epoch:47/100 	train_loss:8.0918	valid_loss:434.9496	triplet_f1:64.8000% [3.5759s]
+Epoch:48/100 	train_loss:8.9298	valid_loss:426.9408	triplet_f1:65.4297% [3.6272s]
+Epoch:49/100 	train_loss:12.2917	valid_loss:441.6931	triplet_f1:63.6455% [3.6121s]
+Epoch:50/100 	train_loss:11.2042	valid_loss:404.6555	triplet_f1:63.5015% [3.6112s]
+Epoch:51/100 	train_loss:11.7014	valid_loss:437.5737	triplet_f1:63.0859% [3.6027s]
+Epoch:52/100 	train_loss:10.0258	valid_loss:454.1514	triplet_f1:63.4888% [3.5852s]
+Epoch:53/100 	train_loss:15.6535	valid_loss:467.0266	triplet_f1:63.6098% [3.5825s]
+Epoch:54/100 	train_loss:23.1428	valid_loss:426.9466	triplet_f1:62.7931% [3.5920s]
+Epoch:55/100 	train_loss:15.9846	valid_loss:449.4480	triplet_f1:63.0480% [3.6020s]
+Epoch:56/100 	train_loss:15.9051	valid_loss:388.1096	triplet_f1:64.0152% [3.5948s]
+Epoch:57/100 	train_loss:9.8251	valid_loss:409.0224	triplet_f1:65.5801% [3.5957s]
+Epoch:58/100 	train_loss:10.3441	valid_loss:428.3948	triplet_f1:64.3573% [3.6108s]
+Epoch:59/100 	train_loss:11.2947	valid_loss:451.3970	triplet_f1:63.6364% [3.5832s]
+Epoch:60/100 	train_loss:7.6156	valid_loss:429.1274	triplet_f1:64.2578% [3.5789s]
+Epoch:61/100 	train_loss:9.8573	valid_loss:436.8740	triplet_f1:65.1297% [3.5895s]
+Epoch:62/100 	train_loss:11.0360	valid_loss:450.1207	triplet_f1:64.6330% [3.5883s]
+Epoch:63/100 	train_loss:5.8650	valid_loss:453.6860	triplet_f1:64.1326% [3.6056s]
+Epoch:64/100 	train_loss:6.6491	valid_loss:460.4937	triplet_f1:63.5044% [3.6006s]
+Epoch:65/100 	train_loss:8.6843	valid_loss:475.6500	triplet_f1:63.4951% [3.5987s]
+Epoch:66/100 	train_loss:13.1570	valid_loss:485.6469	triplet_f1:64.6305% [3.5949s]
+Epoch:67/100 	train_loss:7.4801	valid_loss:472.0947	triplet_f1:63.1787% [3.5998s]
+Epoch:68/100 	train_loss:9.1363	valid_loss:436.7732	triplet_f1:64.9425% [3.5939s]
+Epoch:69/100 	train_loss:7.4495	valid_loss:471.1849	triplet_f1:62.6747% [3.5961s]
+Epoch:70/100 	train_loss:7.4963	valid_loss:506.0718	triplet_f1:62.9555% [3.6042s]
+Epoch:71/100 	train_loss:7.2015	valid_loss:539.2694	triplet_f1:60.4555% [3.5918s]
+Epoch:72/100 	train_loss:9.4252	valid_loss:504.1281	triplet_f1:62.0968% [3.6028s]
+Epoch:73/100 	train_loss:12.8600	valid_loss:498.3282	triplet_f1:62.5731% [3.5842s]
+Epoch:74/100 	train_loss:12.3996	valid_loss:536.9262	triplet_f1:63.4098% [3.5937s]
+Epoch:75/100 	train_loss:11.1168	valid_loss:537.2160	triplet_f1:61.7436% [3.5893s]
+Epoch:76/100 	train_loss:9.2522	valid_loss:481.4157	triplet_f1:64.6182% [3.5797s]
+Epoch:77/100 	train_loss:7.2405	valid_loss:514.2761	triplet_f1:66.4078% [3.6013s]
+Epoch:78/100 	train_loss:9.6519	valid_loss:546.4401	triplet_f1:62.9555% [3.5953s]
+Epoch:79/100 	train_loss:8.1047	valid_loss:531.5218	triplet_f1:63.6631% [3.6197s]
+Epoch:80/100 	train_loss:9.7321	valid_loss:480.4203	triplet_f1:63.1787% [3.6080s]
+Epoch:81/100 	train_loss:8.9997	valid_loss:524.1119	triplet_f1:65.0485% [3.5877s]
+Epoch:82/100 	train_loss:8.1769	valid_loss:485.4917	triplet_f1:63.9216% [3.5827s]
+Epoch:83/100 	train_loss:7.4578	valid_loss:475.8684	triplet_f1:65.7769% [3.5797s]
+Epoch:84/100 	train_loss:5.1066	valid_loss:512.5467	triplet_f1:64.0376% [3.6088s]
+Epoch:85/100 	train_loss:6.7931	valid_loss:466.8397	triplet_f1:63.9155% [3.6371s]
+Epoch:86/100 	train_loss:9.6049	valid_loss:499.6821	triplet_f1:64.9205% [3.6029s]
+Epoch:87/100 	train_loss:6.1846	valid_loss:529.8713	triplet_f1:64.4295% [3.5958s]
+Epoch:88/100 	train_loss:7.7586	valid_loss:535.2242	triplet_f1:62.6894% [3.6039s]
+Epoch:89/100 	train_loss:13.9280	valid_loss:658.0507	triplet_f1:64.2000% [3.5944s]
+Epoch:90/100 	train_loss:14.7244	valid_loss:596.7571	triplet_f1:66.1738% [3.5761s]
+Epoch:91/100 	train_loss:10.7374	valid_loss:595.9227	triplet_f1:63.9850% [3.6170s]
+Epoch:92/100 	train_loss:12.2447	valid_loss:517.5800	triplet_f1:63.9684% [3.6147s]
+Epoch:93/100 	train_loss:5.7118	valid_loss:520.7514	triplet_f1:66.5431% [3.5916s]
+Epoch:94/100 	train_loss:7.4910	valid_loss:580.0393	triplet_f1:64.3902% [3.5955s]
+Epoch:95/100 	train_loss:8.3531	valid_loss:617.8247	triplet_f1:65.8252% [3.5830s]
+Epoch:96/100 	train_loss:6.5035	valid_loss:569.1061	triplet_f1:65.1429% [3.5870s]
+Epoch:97/100 	train_loss:7.3849	valid_loss:577.8440	triplet_f1:66.1402% [3.6108s]
+Epoch:98/100 	train_loss:5.7747	valid_loss:604.3950	triplet_f1:64.9657% [3.6093s]
+Epoch:99/100 	train_loss:7.6137	valid_loss:611.5055	triplet_f1:64.7399% [3.6092s]
+Epoch:100/100 	train_loss:11.6007	valid_loss:592.4972	triplet_f1:63.9098% [3.6009s]
+> Testing...
+------------------------------
+Dataset:14res, test_f1:73.83% | version:2D lr:0.001 bert_lr:2e-05 seed:26 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	82.28%	73.34%	77.55%
+*TRIPLET	78.33%	69.82%	73.83%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	81.75%	78.39%	80.03%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	69.92%	53.12%	60.37%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	68.25%	53.53%	60.00%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	72.41%	46.15%	56.38%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	81.48%	89.74%	85.41%
+  OTE   	82.79%	89.58%	86.05%
+
+=========================================================================================================
+> label2id: {'N-N': 0, 'N-NEG': 1, 'N-NEU': 2, 'N-POS': 3, 'O-N': 4, 'O-NEG': 5, 'O-NEU': 6, 'O-POS': 7, 'A-N': 8, 'A-NEG': 9, 'A-NEU': 10, 'A-POS': 11}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='15res', version='2D', seed=126, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=12)
+> Load model...
+> # parameters 109643252
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:733.4353	valid_loss:314.4299	triplet_f1:0.8000% [1.6363s]
+Epoch:2/100 	train_loss:273.5709	valid_loss:208.2308	triplet_f1:32.3353% [1.6491s]
+Epoch:3/100 	train_loss:216.4544	valid_loss:174.6191	triplet_f1:47.8261% [1.6458s]
+Epoch:4/100 	train_loss:167.3206	valid_loss:152.8485	triplet_f1:53.6082% [1.6570s]
+Epoch:5/100 	train_loss:134.2556	valid_loss:146.6499	triplet_f1:59.9509% [1.6654s]
+Epoch:6/100 	train_loss:110.4640	valid_loss:140.3563	triplet_f1:65.9091% [1.6622s]
+Epoch:7/100 	train_loss:108.2405	valid_loss:145.3617	triplet_f1:62.2642% [1.6639s]
+Epoch:8/100 	train_loss:92.4813	valid_loss:140.5180	triplet_f1:64.1026% [1.6579s]
+Epoch:9/100 	train_loss:77.0419	valid_loss:142.8409	triplet_f1:66.2393% [1.6546s]
+Epoch:10/100 	train_loss:66.3708	valid_loss:152.7055	triplet_f1:62.9156% [1.6441s]
+Epoch:11/100 	train_loss:61.2518	valid_loss:152.3997	triplet_f1:66.6667% [1.6202s]
+Epoch:12/100 	train_loss:53.7940	valid_loss:146.1680	triplet_f1:68.9498% [1.6328s]
+Epoch:13/100 	train_loss:44.2002	valid_loss:160.5612	triplet_f1:67.2986% [1.6701s]
+Epoch:14/100 	train_loss:39.4375	valid_loss:155.0607	triplet_f1:66.0333% [1.6402s]
+Epoch:15/100 	train_loss:36.3288	valid_loss:158.2824	triplet_f1:68.2028% [1.6392s]
+Epoch:16/100 	train_loss:31.8615	valid_loss:164.0128	triplet_f1:70.0229% [1.6885s]
+Epoch:17/100 	train_loss:31.3907	valid_loss:159.7977	triplet_f1:69.9774% [3.4185s]
+Epoch:18/100 	train_loss:77.6079	valid_loss:202.7242	triplet_f1:64.1879% [3.4775s]
+Epoch:19/100 	train_loss:66.2225	valid_loss:149.2009	triplet_f1:64.9682% [3.4031s]
+Epoch:20/100 	train_loss:37.8386	valid_loss:163.8955	triplet_f1:68.0089% [3.5855s]
+Epoch:21/100 	train_loss:24.3823	valid_loss:168.9188	triplet_f1:66.8213% [3.4656s]
+Epoch:22/100 	train_loss:17.9257	valid_loss:176.6843	triplet_f1:69.1964% [3.4737s]
+Epoch:23/100 	train_loss:16.4240	valid_loss:185.9035	triplet_f1:68.7640% [3.4607s]
+Epoch:24/100 	train_loss:19.1307	valid_loss:191.2159	triplet_f1:69.7460% [3.4422s]
+Epoch:25/100 	train_loss:14.1820	valid_loss:199.5198	triplet_f1:69.3333% [3.5388s]
+Epoch:26/100 	train_loss:11.6504	valid_loss:188.3224	triplet_f1:70.7692% [3.3271s]
+Epoch:27/100 	train_loss:14.2751	valid_loss:209.0855	triplet_f1:70.1595% [3.6526s]
+Epoch:28/100 	train_loss:16.7867	valid_loss:208.4634	triplet_f1:69.9115% [3.5266s]
+Epoch:29/100 	train_loss:28.0636	valid_loss:206.7617	triplet_f1:65.8635% [3.5862s]
+Epoch:30/100 	train_loss:20.1905	valid_loss:227.5062	triplet_f1:68.0952% [3.4904s]
+Epoch:31/100 	train_loss:16.5696	valid_loss:197.4249	triplet_f1:69.0987% [3.4285s]
+Epoch:32/100 	train_loss:10.8931	valid_loss:209.6735	triplet_f1:70.7965% [3.4154s]
+Epoch:33/100 	train_loss:10.4032	valid_loss:224.2766	triplet_f1:71.6895% [3.2631s]
+Epoch:34/100 	train_loss:9.1701	valid_loss:231.6577	triplet_f1:71.3287% [2.5863s]
+Epoch:35/100 	train_loss:6.4340	valid_loss:222.6944	triplet_f1:70.2461% [1.6435s]
+Epoch:36/100 	train_loss:7.1950	valid_loss:221.5883	triplet_f1:70.6150% [1.6578s]
+Epoch:37/100 	train_loss:7.8921	valid_loss:234.1769	triplet_f1:68.7090% [1.6622s]
+Epoch:38/100 	train_loss:8.8543	valid_loss:224.7926	triplet_f1:70.4846% [1.6458s]
+Epoch:39/100 	train_loss:7.4894	valid_loss:232.6834	triplet_f1:70.5357% [1.6636s]
+Epoch:40/100 	train_loss:7.1922	valid_loss:217.6187	triplet_f1:71.4597% [1.6500s]
+Epoch:41/100 	train_loss:7.1138	valid_loss:224.9723	triplet_f1:71.4912% [1.6573s]
+Epoch:42/100 	train_loss:6.2296	valid_loss:266.1798	triplet_f1:70.7692% [1.6690s]
+Epoch:43/100 	train_loss:6.6613	valid_loss:241.5435	triplet_f1:71.2743% [1.6507s]
+Epoch:44/100 	train_loss:5.7140	valid_loss:236.5848	triplet_f1:70.6140% [1.6545s]
+Epoch:45/100 	train_loss:6.3138	valid_loss:236.4224	triplet_f1:71.4597% [1.6481s]
+Epoch:46/100 	train_loss:7.0993	valid_loss:239.8852	triplet_f1:69.1076% [1.6551s]
+Epoch:47/100 	train_loss:9.0911	valid_loss:240.6435	triplet_f1:71.2644% [1.6498s]
+Epoch:48/100 	train_loss:7.4783	valid_loss:286.5354	triplet_f1:70.9220% [1.6566s]
+Epoch:49/100 	train_loss:11.4218	valid_loss:271.5513	triplet_f1:68.9815% [1.6667s]
+Epoch:50/100 	train_loss:12.5076	valid_loss:262.5035	triplet_f1:69.9115% [1.6425s]
+Epoch:51/100 	train_loss:11.0425	valid_loss:255.6178	triplet_f1:68.9189% [1.6632s]
+Epoch:52/100 	train_loss:15.1631	valid_loss:269.6146	triplet_f1:70.6150% [1.6573s]
+Epoch:53/100 	train_loss:11.4630	valid_loss:270.7329	triplet_f1:67.8984% [1.6962s]
+Epoch:54/100 	train_loss:7.1894	valid_loss:250.2859	triplet_f1:71.5232% [1.7939s]
+Epoch:55/100 	train_loss:5.4381	valid_loss:258.3264	triplet_f1:72.3214% [3.0159s]
+Epoch:56/100 	train_loss:4.9096	valid_loss:275.5932	triplet_f1:70.0000% [3.3537s]
+Epoch:57/100 	train_loss:7.2283	valid_loss:254.6157	triplet_f1:68.4211% [3.5458s]
+Epoch:58/100 	train_loss:3.5205	valid_loss:273.2530	triplet_f1:69.7987% [3.6353s]
+Epoch:59/100 	train_loss:3.2764	valid_loss:266.4062	triplet_f1:69.6231% [3.4890s]
+Epoch:60/100 	train_loss:4.6639	valid_loss:266.6664	triplet_f1:69.6035% [3.5390s]
+Epoch:61/100 	train_loss:5.2174	valid_loss:256.4114	triplet_f1:68.5841% [3.3353s]
+Epoch:62/100 	train_loss:3.5272	valid_loss:271.8001	triplet_f1:70.3297% [3.7886s]
+Epoch:63/100 	train_loss:4.2696	valid_loss:275.2145	triplet_f1:69.2841% [3.2987s]
+Epoch:64/100 	train_loss:3.1661	valid_loss:300.7253	triplet_f1:69.9774% [3.4420s]
+Epoch:65/100 	train_loss:6.4392	valid_loss:297.3940	triplet_f1:70.4104% [3.3392s]
+Epoch:66/100 	train_loss:12.7218	valid_loss:275.1066	triplet_f1:70.6861% [3.7006s]
+Epoch:67/100 	train_loss:10.9427	valid_loss:297.6749	triplet_f1:69.6774% [3.5788s]
+Epoch:68/100 	train_loss:9.4668	valid_loss:333.9417	triplet_f1:68.8372% [3.5367s]
+Epoch:69/100 	train_loss:5.8567	valid_loss:297.8083	triplet_f1:72.3214% [3.4690s]
+Epoch:70/100 	train_loss:6.3992	valid_loss:341.6374	triplet_f1:69.0832% [3.4258s]
+Epoch:71/100 	train_loss:7.5069	valid_loss:282.7545	triplet_f1:68.8453% [3.8588s]
+Epoch:72/100 	train_loss:7.7388	valid_loss:290.1152	triplet_f1:70.8595% [3.3918s]
+Epoch:73/100 	train_loss:9.8332	valid_loss:320.5211	triplet_f1:66.6667% [3.4394s]
+Epoch:74/100 	train_loss:10.0749	valid_loss:309.9973	triplet_f1:69.9074% [3.4216s]
+Epoch:75/100 	train_loss:6.6512	valid_loss:311.7474	triplet_f1:69.4639% [3.4015s]
+Epoch:76/100 	train_loss:6.4583	valid_loss:297.4693	triplet_f1:72.0524% [3.4466s]
+Epoch:77/100 	train_loss:5.2041	valid_loss:279.5403	triplet_f1:72.6457% [3.4316s]
+Epoch:78/100 	train_loss:4.8198	valid_loss:312.7169	triplet_f1:70.6697% [3.7584s]
+Epoch:79/100 	train_loss:5.4077	valid_loss:301.6077	triplet_f1:73.4607% [3.7623s]
+Epoch:80/100 	train_loss:5.3788	valid_loss:305.6766	triplet_f1:70.7627% [3.3786s]
+Epoch:81/100 	train_loss:5.7573	valid_loss:346.1939	triplet_f1:69.3208% [3.6501s]
+Epoch:82/100 	train_loss:5.1438	valid_loss:304.4809	triplet_f1:72.0000% [3.5866s]
+Epoch:83/100 	train_loss:6.5849	valid_loss:345.2767	triplet_f1:66.9528% [3.4757s]
+Epoch:84/100 	train_loss:4.8012	valid_loss:296.8019	triplet_f1:72.3769% [3.3783s]
+Epoch:85/100 	train_loss:5.1756	valid_loss:312.3263	triplet_f1:70.8075% [3.5662s]
+Epoch:86/100 	train_loss:6.0367	valid_loss:310.8740	triplet_f1:71.1864% [3.5481s]
+Epoch:87/100 	train_loss:7.5868	valid_loss:361.4480	triplet_f1:70.5618% [3.6018s]
+Epoch:88/100 	train_loss:9.3069	valid_loss:332.9954	triplet_f1:72.6457% [3.5917s]
+Epoch:89/100 	train_loss:16.5419	valid_loss:303.6677	triplet_f1:70.9821% [3.5116s]
+Epoch:90/100 	train_loss:7.6848	valid_loss:347.3456	triplet_f1:68.2135% [3.5511s]
+Epoch:91/100 	train_loss:12.8716	valid_loss:288.0758	triplet_f1:71.4286% [3.4183s]
+Epoch:92/100 	train_loss:6.8349	valid_loss:371.5195	triplet_f1:68.4807% [3.5358s]
+Epoch:93/100 	train_loss:6.7788	valid_loss:292.6162	triplet_f1:74.0741% [3.5133s]
+Epoch:94/100 	train_loss:7.6897	valid_loss:335.3620	triplet_f1:70.7819% [3.5131s]
+Epoch:95/100 	train_loss:8.0383	valid_loss:349.9767	triplet_f1:71.5556% [3.5295s]
+Epoch:96/100 	train_loss:10.9306	valid_loss:361.5686	triplet_f1:70.7965% [3.5740s]
+Epoch:97/100 	train_loss:6.2527	valid_loss:349.9716	triplet_f1:71.2695% [3.5189s]
+Epoch:98/100 	train_loss:3.3743	valid_loss:333.8839	triplet_f1:69.9784% [3.6179s]
+Epoch:99/100 	train_loss:4.2326	valid_loss:348.5317	triplet_f1:72.0339% [3.5570s]
+Epoch:100/100 	train_loss:6.5429	valid_loss:331.9349	triplet_f1:72.6514% [3.5900s]
+> Testing...
+------------------------------
+Dataset:15res, test_f1:65.53% | version:2D lr:0.001 bert_lr:2e-05 seed:126 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	80.20%	65.15%	71.90%
+*TRIPLET	73.10%	59.38%	65.53%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	77.69%	65.66%	71.17%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	65.03%	49.47%	56.19%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	69.70%	50.36%	58.47%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	52.94%	42.19%	46.96%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.96%	81.71%	81.34%
+  OTE   	75.14%	84.60%	79.59%
+
+=========================================================================================================
+> label2id: {'N-N': 0, 'N-NEG': 1, 'N-NEU': 2, 'N-POS': 3, 'O-N': 4, 'O-NEG': 5, 'O-NEU': 6, 'O-POS': 7, 'A-N': 8, 'A-NEG': 9, 'A-NEU': 10, 'A-POS': 11}
+> weight: tensor([1., 2., 2., 2., 1., 2., 2., 2., 1., 2., 2., 2.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='16res', version='2D', seed=63, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=12)
+> Load model...
+> # parameters 109643252
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:699.8486	valid_loss:253.4717	triplet_f1:31.1512% [5.0068s]
+Epoch:2/100 	train_loss:249.0079	valid_loss:182.2861	triplet_f1:42.7966% [4.9546s]
+Epoch:3/100 	train_loss:182.7506	valid_loss:163.4779	triplet_f1:45.7692% [4.9797s]
+Epoch:4/100 	train_loss:148.5547	valid_loss:156.8859	triplet_f1:51.1450% [5.5965s]
+Epoch:5/100 	train_loss:126.4761	valid_loss:143.1486	triplet_f1:53.0973% [3.4711s]
+Epoch:6/100 	train_loss:125.7746	valid_loss:173.4092	triplet_f1:55.1210% [5.3029s]
+Epoch:7/100 	train_loss:107.1976	valid_loss:147.4461	triplet_f1:56.5619% [2.3918s]
+Epoch:8/100 	train_loss:81.0859	valid_loss:135.1765	triplet_f1:61.8803% [4.9697s]
+Epoch:9/100 	train_loss:65.6125	valid_loss:139.8265	triplet_f1:62.2951% [5.1054s]
+Epoch:10/100 	train_loss:55.3163	valid_loss:152.1758	triplet_f1:63.1052% [5.0342s]
+Epoch:11/100 	train_loss:53.0507	valid_loss:150.6752	triplet_f1:64.4172% [5.1820s]
+Epoch:12/100 	train_loss:46.8252	valid_loss:171.2805	triplet_f1:63.3166% [5.0863s]
+Epoch:13/100 	train_loss:42.7764	valid_loss:153.0434	triplet_f1:64.9094% [4.9818s]
+Epoch:14/100 	train_loss:35.5296	valid_loss:159.5456	triplet_f1:65.8065% [5.1270s]
+Epoch:15/100 	train_loss:28.8538	valid_loss:192.4983	triplet_f1:62.8159% [5.4007s]
+Epoch:16/100 	train_loss:25.8167	valid_loss:178.1865	triplet_f1:67.4051% [5.0445s]
+Epoch:17/100 	train_loss:34.0254	valid_loss:197.0758	triplet_f1:66.5620% [5.0864s]
+Epoch:18/100 	train_loss:28.7919	valid_loss:179.3500	triplet_f1:66.8831% [5.1282s]
+Epoch:19/100 	train_loss:21.1189	valid_loss:180.8308	triplet_f1:67.4230% [5.1642s]
+Epoch:20/100 	train_loss:20.1735	valid_loss:198.7496	triplet_f1:69.0117% [4.8890s]
+Epoch:21/100 	train_loss:19.9671	valid_loss:190.1196	triplet_f1:68.3871% [5.0732s]
+Epoch:22/100 	train_loss:15.5167	valid_loss:229.8505	triplet_f1:66.4407% [5.1464s]
+Epoch:23/100 	train_loss:16.5733	valid_loss:245.3836	triplet_f1:63.9138% [4.8815s]
+Epoch:24/100 	train_loss:18.5919	valid_loss:242.9266	triplet_f1:65.2705% [5.0173s]
+Epoch:25/100 	train_loss:14.4341	valid_loss:222.7788	triplet_f1:66.7808% [5.2006s]
+Epoch:26/100 	train_loss:13.4084	valid_loss:239.4861	triplet_f1:65.7293% [4.9662s]
+Epoch:27/100 	train_loss:12.1238	valid_loss:239.0835	triplet_f1:66.4372% [5.1515s]
+Epoch:28/100 	train_loss:9.8749	valid_loss:224.6419	triplet_f1:69.1558% [4.9512s]
+Epoch:29/100 	train_loss:10.8091	valid_loss:238.8104	triplet_f1:67.0000% [4.9748s]
+Epoch:30/100 	train_loss:8.0802	valid_loss:241.1585	triplet_f1:68.4298% [4.8797s]
+Epoch:31/100 	train_loss:8.0021	valid_loss:254.8944	triplet_f1:67.1074% [5.0480s]
+Epoch:32/100 	train_loss:7.8739	valid_loss:265.6301	triplet_f1:69.0000% [5.0670s]
+Epoch:33/100 	train_loss:10.3648	valid_loss:233.8329	triplet_f1:69.7674% [5.0411s]
+Epoch:34/100 	train_loss:9.4740	valid_loss:251.5606	triplet_f1:69.2432% [5.0499s]
+Epoch:35/100 	train_loss:11.0260	valid_loss:257.1433	triplet_f1:66.4484% [5.0133s]
+Epoch:36/100 	train_loss:11.7030	valid_loss:272.9427	triplet_f1:67.5722% [5.0596s]
+Epoch:37/100 	train_loss:8.9546	valid_loss:261.6884	triplet_f1:68.3417% [5.1822s]
+Epoch:38/100 	train_loss:8.4946	valid_loss:245.9268	triplet_f1:69.2683% [5.1611s]
+Epoch:39/100 	train_loss:18.2391	valid_loss:264.9206	triplet_f1:69.1558% [5.1634s]
+Epoch:40/100 	train_loss:16.8910	valid_loss:258.2362	triplet_f1:67.6329% [4.9815s]
+Epoch:41/100 	train_loss:9.8616	valid_loss:268.1847	triplet_f1:68.1745% [5.0218s]
+Epoch:42/100 	train_loss:10.6095	valid_loss:313.4168	triplet_f1:61.9666% [5.1160s]
+Epoch:43/100 	train_loss:13.8410	valid_loss:271.0265	triplet_f1:66.1102% [5.1125s]
+Epoch:44/100 	train_loss:8.8497	valid_loss:264.2489	triplet_f1:69.1318% [5.1617s]
+Epoch:45/100 	train_loss:17.0849	valid_loss:274.5418	triplet_f1:70.9887% [5.7055s]
+Epoch:46/100 	train_loss:9.2561	valid_loss:273.4801	triplet_f1:67.7796% [4.1935s]
+Epoch:47/100 	train_loss:6.4754	valid_loss:254.5731	triplet_f1:71.6800% [5.5320s]
+Epoch:48/100 	train_loss:6.5768	valid_loss:304.1931	triplet_f1:69.1680% [2.3843s]
+Epoch:49/100 	train_loss:5.7754	valid_loss:285.3798	triplet_f1:69.7452% [3.8176s]
+Epoch:50/100 	train_loss:7.0994	valid_loss:280.6215	triplet_f1:70.1807% [5.0828s]
+Epoch:51/100 	train_loss:11.0350	valid_loss:286.2080	triplet_f1:69.4486% [4.9889s]
+Epoch:52/100 	train_loss:13.5869	valid_loss:269.2091	triplet_f1:71.5822% [4.9354s]
+Epoch:53/100 	train_loss:29.4858	valid_loss:265.0785	triplet_f1:71.7391% [5.2815s]
+Epoch:54/100 	train_loss:16.8909	valid_loss:327.4309	triplet_f1:65.2705% [4.9914s]
+Epoch:55/100 	train_loss:12.2512	valid_loss:286.8136	triplet_f1:70.8148% [4.9728s]
+Epoch:56/100 	train_loss:21.2519	valid_loss:322.9505	triplet_f1:68.1887% [4.6424s]
+Epoch:57/100 	train_loss:15.2901	valid_loss:270.0448	triplet_f1:70.2619% [5.2908s]
+Epoch:58/100 	train_loss:8.7312	valid_loss:271.6259	triplet_f1:70.5882% [5.0439s]
+Epoch:59/100 	train_loss:6.0599	valid_loss:293.7675	triplet_f1:68.6567% [4.9922s]
+Epoch:60/100 	train_loss:6.0860	valid_loss:292.1458	triplet_f1:70.4581% [4.7353s]
+Epoch:61/100 	train_loss:5.7406	valid_loss:298.3036	triplet_f1:70.2532% [5.0152s]
+Epoch:62/100 	train_loss:5.3312	valid_loss:303.5691	triplet_f1:68.0992% [4.8901s]
+Epoch:63/100 	train_loss:4.1353	valid_loss:313.7287	triplet_f1:67.7524% [5.0810s]
+Epoch:64/100 	train_loss:4.0727	valid_loss:292.6232	triplet_f1:69.0789% [4.9050s]
+Epoch:65/100 	train_loss:3.4165	valid_loss:293.4630	triplet_f1:70.8464% [5.1738s]
+Epoch:66/100 	train_loss:3.5660	valid_loss:311.4229	triplet_f1:68.8418% [5.2563s]
+Epoch:67/100 	train_loss:2.7974	valid_loss:335.3489	triplet_f1:68.4211% [5.1073s]
+Epoch:68/100 	train_loss:3.6034	valid_loss:309.9438	triplet_f1:71.2025% [5.0112s]
+Epoch:69/100 	train_loss:3.2287	valid_loss:366.6795	triplet_f1:68.8136% [5.0663s]
+Epoch:70/100 	train_loss:5.2838	valid_loss:333.6937	triplet_f1:69.8206% [5.2190s]
+Epoch:71/100 	train_loss:4.1209	valid_loss:317.3608	triplet_f1:69.7108% [5.0275s]
+Epoch:72/100 	train_loss:5.7419	valid_loss:357.3634	triplet_f1:66.3121% [5.3015s]
+Epoch:73/100 	train_loss:7.8467	valid_loss:302.5504	triplet_f1:71.0744% [5.0621s]
+Epoch:74/100 	train_loss:6.8716	valid_loss:310.2104	triplet_f1:70.2265% [5.0803s]
+Epoch:75/100 	train_loss:9.4124	valid_loss:360.0005	triplet_f1:72.4359% [5.1375s]
+Epoch:76/100 	train_loss:6.6311	valid_loss:371.1119	triplet_f1:66.5579% [4.9950s]
+Epoch:77/100 	train_loss:7.5063	valid_loss:372.6174	triplet_f1:68.9884% [4.9731s]
+Epoch:78/100 	train_loss:6.5075	valid_loss:339.2419	triplet_f1:69.1589% [5.1732s]
+Epoch:79/100 	train_loss:7.2766	valid_loss:363.2240	triplet_f1:68.7097% [5.0803s]
+Epoch:80/100 	train_loss:5.8315	valid_loss:386.2431	triplet_f1:68.3417% [5.1798s]
+Epoch:81/100 	train_loss:6.6354	valid_loss:407.5587	triplet_f1:68.2043% [5.2417s]
+Epoch:82/100 	train_loss:8.6721	valid_loss:382.6137	triplet_f1:71.3615% [5.0376s]
+Epoch:83/100 	train_loss:6.4670	valid_loss:351.6478	triplet_f1:70.6645% [4.9673s]
+Epoch:84/100 	train_loss:7.0484	valid_loss:366.6862	triplet_f1:69.8517% [5.0376s]
+Epoch:85/100 	train_loss:5.0596	valid_loss:336.8966	triplet_f1:71.8110% [4.9813s]
+Epoch:86/100 	train_loss:3.3302	valid_loss:371.8727	triplet_f1:71.4754% [5.1459s]
+Epoch:87/100 	train_loss:4.0476	valid_loss:443.6731	triplet_f1:69.4017% [4.9639s]
+Epoch:88/100 	train_loss:5.2027	valid_loss:362.3291	triplet_f1:68.6427% [5.0010s]
+Epoch:89/100 	train_loss:6.1232	valid_loss:377.9826	triplet_f1:70.7395% [4.9481s]
+Epoch:90/100 	train_loss:15.1500	valid_loss:375.7816	triplet_f1:71.0611% [5.1295s]
+Epoch:91/100 	train_loss:16.3170	valid_loss:420.7007	triplet_f1:69.3201% [5.6461s]
+Epoch:92/100 	train_loss:8.6796	valid_loss:358.6026	triplet_f1:71.0191% [4.5179s]
+Epoch:93/100 	train_loss:7.2565	valid_loss:369.1194	triplet_f1:70.3050% [3.9159s]
+Epoch:94/100 	train_loss:6.1541	valid_loss:354.9292	triplet_f1:70.0157% [5.4996s]
+Epoch:95/100 	train_loss:9.2088	valid_loss:390.8919	triplet_f1:71.2460% [3.1490s]
+Epoch:96/100 	train_loss:5.1833	valid_loss:368.0922	triplet_f1:72.0497% [2.5791s]
+Epoch:97/100 	train_loss:4.7829	valid_loss:371.1718	triplet_f1:73.0650% [5.2532s]
+Epoch:98/100 	train_loss:4.5480	valid_loss:390.2857	triplet_f1:73.3119% [5.2592s]
+Epoch:99/100 	train_loss:4.4135	valid_loss:423.3117	triplet_f1:71.6800% [4.8218s]
+Epoch:100/100 	train_loss:3.7233	valid_loss:384.7709	triplet_f1:71.4504% [4.9580s]
+> Testing...
+------------------------------
+Dataset:16res, test_f1:72.92% | version:2D lr:0.001 bert_lr:2e-05 seed:63 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	86.44%	73.15%	79.24%
+*TRIPLET	79.54%	67.32%	72.92%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	81.79%	74.42%	77.93%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	73.77%	52.94%	61.64%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	80.41%	60.47%	69.03%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	43.75%	25.93%	32.56%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.12%	86.50%	83.19%
+  OTE   	83.14%	91.37%	87.06%
+
+=========================================================================================================
+> label2id: {'N': 0, 'NEG': 1, 'NEU': 2, 'POS': 3, 'O': 4, 'A': 5}
+> weight: tensor([1., 2., 2., 2., 1., 1.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14lap', version='1D', seed=17, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=6)
+> Load model...
+> # parameters 109639646
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:833.5560	valid_loss:373.1935	triplet_f1:0.0000% [5.7117s]
+Epoch:2/100 	train_loss:340.8029	valid_loss:287.4317	triplet_f1:11.6711% [5.4594s]
+Epoch:3/100 	train_loss:263.7381	valid_loss:235.8004	triplet_f1:30.2895% [5.5067s]
+Epoch:4/100 	train_loss:223.5442	valid_loss:217.9202	triplet_f1:37.9648% [5.8598s]
+Epoch:5/100 	train_loss:194.6106	valid_loss:252.5674	triplet_f1:30.2600% [5.7426s]
+Epoch:6/100 	train_loss:170.9429	valid_loss:204.0806	triplet_f1:41.8787% [5.6235s]
+Epoch:7/100 	train_loss:148.1168	valid_loss:209.9386	triplet_f1:42.0233% [5.6708s]
+Epoch:8/100 	train_loss:122.2867	valid_loss:222.1424	triplet_f1:47.6371% [5.6722s]
+Epoch:9/100 	train_loss:106.9158	valid_loss:221.5858	triplet_f1:44.8000% [5.8500s]
+Epoch:10/100 	train_loss:120.1730	valid_loss:213.6130	triplet_f1:49.8113% [5.4773s]
+Epoch:11/100 	train_loss:105.9297	valid_loss:206.5428	triplet_f1:50.0888% [5.8243s]
+Epoch:12/100 	train_loss:81.7712	valid_loss:229.3351	triplet_f1:48.8160% [5.8758s]
+Epoch:13/100 	train_loss:69.3899	valid_loss:216.3688	triplet_f1:54.5151% [5.5581s]
+Epoch:14/100 	train_loss:63.7206	valid_loss:254.3425	triplet_f1:49.5274% [5.6583s]
+Epoch:15/100 	train_loss:60.2371	valid_loss:248.7631	triplet_f1:51.3011% [5.5678s]
+Epoch:16/100 	train_loss:53.3261	valid_loss:239.4926	triplet_f1:54.3372% [5.9509s]
+Epoch:17/100 	train_loss:47.7326	valid_loss:247.5903	triplet_f1:55.1839% [5.4884s]
+Epoch:18/100 	train_loss:43.7395	valid_loss:306.8569	triplet_f1:51.6981% [5.5254s]
+Epoch:19/100 	train_loss:42.2549	valid_loss:270.2157	triplet_f1:53.7262% [5.5195s]
+Epoch:20/100 	train_loss:35.5835	valid_loss:293.0200	triplet_f1:54.1516% [5.6835s]
+Epoch:21/100 	train_loss:32.8539	valid_loss:305.6756	triplet_f1:53.5714% [5.8921s]
+Epoch:22/100 	train_loss:34.6133	valid_loss:310.6926	triplet_f1:54.2435% [5.8599s]
+Epoch:23/100 	train_loss:33.3553	valid_loss:289.5998	triplet_f1:54.8822% [5.6028s]
+Epoch:24/100 	train_loss:30.6230	valid_loss:315.0785	triplet_f1:55.1483% [5.7773s]
+Epoch:25/100 	train_loss:26.3874	valid_loss:307.3285	triplet_f1:55.8376% [5.8047s]
+Epoch:26/100 	train_loss:24.5220	valid_loss:357.2117	triplet_f1:51.6854% [6.2041s]
+Epoch:27/100 	train_loss:23.1575	valid_loss:353.0784	triplet_f1:53.8879% [4.8215s]
+Epoch:28/100 	train_loss:22.2123	valid_loss:367.3431	triplet_f1:52.9851% [4.8903s]
+Epoch:29/100 	train_loss:21.9787	valid_loss:395.3003	triplet_f1:52.2593% [5.9776s]
+Epoch:30/100 	train_loss:20.6826	valid_loss:338.8652	triplet_f1:56.7474% [2.7573s]
+Epoch:31/100 	train_loss:16.9667	valid_loss:345.2504	triplet_f1:56.4374% [5.1292s]
+Epoch:32/100 	train_loss:15.5445	valid_loss:391.1717	triplet_f1:55.0459% [5.7012s]
+Epoch:33/100 	train_loss:16.5230	valid_loss:358.8940	triplet_f1:56.2832% [5.8401s]
+Epoch:34/100 	train_loss:16.2760	valid_loss:349.7208	triplet_f1:58.4307% [5.7046s]
+Epoch:35/100 	train_loss:21.9623	valid_loss:368.4438	triplet_f1:57.9661% [5.4399s]
+Epoch:36/100 	train_loss:29.4928	valid_loss:365.0171	triplet_f1:53.0973% [5.5775s]
+Epoch:37/100 	train_loss:25.7443	valid_loss:364.3087	triplet_f1:56.9948% [5.5627s]
+Epoch:38/100 	train_loss:19.6038	valid_loss:396.5117	triplet_f1:55.8984% [5.6422s]
+Epoch:39/100 	train_loss:14.9459	valid_loss:352.1278	triplet_f1:57.2414% [5.7280s]
+Epoch:40/100 	train_loss:12.1124	valid_loss:406.6268	triplet_f1:56.5371% [5.5616s]
+Epoch:41/100 	train_loss:13.8488	valid_loss:393.8461	triplet_f1:58.5198% [5.5701s]
+Epoch:42/100 	train_loss:15.3145	valid_loss:414.3234	triplet_f1:56.8493% [5.7777s]
+Epoch:43/100 	train_loss:13.1163	valid_loss:417.1514	triplet_f1:58.8235% [5.6967s]
+Epoch:44/100 	train_loss:11.5817	valid_loss:419.6949	triplet_f1:57.3451% [5.6475s]
+Epoch:45/100 	train_loss:11.6042	valid_loss:410.6373	triplet_f1:57.8947% [5.8709s]
+Epoch:46/100 	train_loss:10.5786	valid_loss:454.5812	triplet_f1:55.8464% [5.9258s]
+Epoch:47/100 	train_loss:12.3298	valid_loss:459.8169	triplet_f1:56.4486% [5.5232s]
+Epoch:48/100 	train_loss:10.8902	valid_loss:472.8688	triplet_f1:55.4529% [5.4907s]
+Epoch:49/100 	train_loss:13.7166	valid_loss:419.5356	triplet_f1:56.9444% [5.6272s]
+Epoch:50/100 	train_loss:12.8666	valid_loss:478.3028	triplet_f1:55.5759% [5.6301s]
+Epoch:51/100 	train_loss:13.0250	valid_loss:426.8284	triplet_f1:53.5262% [5.6951s]
+Epoch:52/100 	train_loss:11.8050	valid_loss:418.0677	triplet_f1:58.5366% [5.4815s]
+Epoch:53/100 	train_loss:12.4147	valid_loss:455.0885	triplet_f1:57.9505% [5.8013s]
+Epoch:54/100 	train_loss:13.9895	valid_loss:449.1896	triplet_f1:56.2044% [5.6376s]
+Epoch:55/100 	train_loss:11.2399	valid_loss:492.0514	triplet_f1:56.5217% [5.6588s]
+Epoch:56/100 	train_loss:12.7858	valid_loss:423.6602	triplet_f1:60.2007% [5.6931s]
+Epoch:57/100 	train_loss:10.0946	valid_loss:432.5370	triplet_f1:59.2845% [5.8452s]
+Epoch:58/100 	train_loss:8.5000	valid_loss:490.6790	triplet_f1:56.3280% [5.5672s]
+Epoch:59/100 	train_loss:9.6759	valid_loss:442.5131	triplet_f1:59.0759% [5.4128s]
+Epoch:60/100 	train_loss:11.5041	valid_loss:490.9667	triplet_f1:58.1560% [5.6312s]
+Epoch:61/100 	train_loss:11.3353	valid_loss:430.9019	triplet_f1:59.1736% [5.6648s]
+Epoch:62/100 	train_loss:17.4866	valid_loss:448.7837	triplet_f1:58.6319% [5.5354s]
+Epoch:63/100 	train_loss:15.4511	valid_loss:438.6128	triplet_f1:58.0645% [5.4793s]
+Epoch:64/100 	train_loss:11.9846	valid_loss:428.6855	triplet_f1:59.4958% [5.7808s]
+Epoch:65/100 	train_loss:9.5114	valid_loss:494.2793	triplet_f1:57.1924% [5.7839s]
+Epoch:66/100 	train_loss:8.6389	valid_loss:483.4236	triplet_f1:59.4502% [5.6919s]
+Epoch:67/100 	train_loss:9.4736	valid_loss:476.4350	triplet_f1:57.5488% [5.5767s]
+Epoch:68/100 	train_loss:8.2418	valid_loss:498.5433	triplet_f1:58.0311% [6.2319s]
+Epoch:69/100 	train_loss:8.8855	valid_loss:449.8170	triplet_f1:60.0316% [4.5241s]
+Epoch:70/100 	train_loss:11.8668	valid_loss:475.8829	triplet_f1:58.8040% [4.7147s]
+Epoch:71/100 	train_loss:8.8008	valid_loss:448.1146	triplet_f1:58.7436% [5.5937s]
+Epoch:72/100 	train_loss:8.3372	valid_loss:510.6257	triplet_f1:59.4872% [5.7125s]
+Epoch:73/100 	train_loss:8.9062	valid_loss:518.0480	triplet_f1:58.0071% [5.4412s]
+Epoch:74/100 	train_loss:9.3044	valid_loss:540.8690	triplet_f1:58.4615% [5.5803s]
+Epoch:75/100 	train_loss:10.6563	valid_loss:551.4751	triplet_f1:56.3280% [5.6094s]
+Epoch:76/100 	train_loss:9.2206	valid_loss:557.6636	triplet_f1:59.5238% [5.5590s]
+Epoch:77/100 	train_loss:14.0330	valid_loss:509.8489	triplet_f1:58.3480% [5.7921s]
+Epoch:78/100 	train_loss:11.3883	valid_loss:475.8704	triplet_f1:58.9577% [5.7188s]
+Epoch:79/100 	train_loss:12.8756	valid_loss:508.3188	triplet_f1:58.6667% [5.3596s]
+Epoch:80/100 	train_loss:9.9027	valid_loss:513.5482	triplet_f1:59.6803% [5.4261s]
+Epoch:81/100 	train_loss:11.2624	valid_loss:551.2001	triplet_f1:57.2438% [5.5540s]
+Epoch:82/100 	train_loss:11.4623	valid_loss:491.6256	triplet_f1:59.5960% [5.5463s]
+Epoch:83/100 	train_loss:8.4982	valid_loss:523.4042	triplet_f1:60.5753% [5.5739s]
+Epoch:84/100 	train_loss:7.8106	valid_loss:565.3661	triplet_f1:57.0902% [5.5953s]
+Epoch:85/100 	train_loss:9.0521	valid_loss:590.3119	triplet_f1:58.3333% [5.5787s]
+Epoch:86/100 	train_loss:9.7836	valid_loss:494.8455	triplet_f1:59.4502% [5.8777s]
+Epoch:87/100 	train_loss:8.6206	valid_loss:542.3558	triplet_f1:60.9555% [5.8351s]
+Epoch:88/100 	train_loss:9.7649	valid_loss:469.9129	triplet_f1:61.7785% [5.5441s]
+Epoch:89/100 	train_loss:8.4119	valid_loss:472.7565	triplet_f1:60.1246% [5.6201s]
+Epoch:90/100 	train_loss:11.2775	valid_loss:554.5888	triplet_f1:57.0909% [5.9059s]
+Epoch:91/100 	train_loss:11.9261	valid_loss:518.5880	triplet_f1:60.2041% [5.7294s]
+Epoch:92/100 	train_loss:10.5260	valid_loss:567.9535	triplet_f1:57.1949% [5.5940s]
+Epoch:93/100 	train_loss:10.5288	valid_loss:588.8870	triplet_f1:57.3477% [5.5778s]
+Epoch:94/100 	train_loss:9.0275	valid_loss:537.6732	triplet_f1:60.5753% [5.7100s]
+Epoch:95/100 	train_loss:9.1468	valid_loss:536.2232	triplet_f1:59.6187% [5.7507s]
+Epoch:96/100 	train_loss:8.6027	valid_loss:588.7703	triplet_f1:58.9041% [5.7357s]
+Epoch:97/100 	train_loss:6.1239	valid_loss:526.2742	triplet_f1:61.3599% [5.5793s]
+Epoch:98/100 	train_loss:7.9024	valid_loss:546.9924	triplet_f1:60.4027% [5.7066s]
+Epoch:99/100 	train_loss:9.4474	valid_loss:584.9346	triplet_f1:60.0326% [5.6768s]
+Epoch:100/100 	train_loss:9.2458	valid_loss:554.4792	triplet_f1:59.5960% [5.6739s]
+> Testing...
+------------------------------
+Dataset:14lap, test_f1:61.92% | version:1D lr:0.001 bert_lr:2e-05 seed:17 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	81.93%	62.85%	71.13%
+*TRIPLET	71.33%	54.71%	61.92%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	77.51%	66.78%	71.75%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	62.05%	40.87%	49.28%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	65.10%	44.09%	52.57%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	37.21%	23.19%	28.57%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	80.81%	86.39%	83.51%
+  OTE   	74.91%	85.02%	79.64%
+
+=========================================================================================================
+> label2id: {'N': 0, 'NEG': 1, 'NEU': 2, 'POS': 3, 'O': 4, 'A': 5}
+> weight: tensor([1., 2., 2., 2., 1., 1.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='14res', version='1D', seed=34, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=6)
+> Load model...
+> # parameters 109639646
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:593.0714	valid_loss:273.1000	triplet_f1:24.5763% [7.9417s]
+Epoch:2/100 	train_loss:254.2314	valid_loss:210.5224	triplet_f1:49.3208% [7.7512s]
+Epoch:3/100 	train_loss:198.4674	valid_loss:185.6670	triplet_f1:54.6597% [5.6929s]
+Epoch:4/100 	train_loss:170.3472	valid_loss:184.4541	triplet_f1:56.2633% [5.8871s]
+Epoch:5/100 	train_loss:151.0207	valid_loss:188.0795	triplet_f1:50.3464% [6.7048s]
+Epoch:6/100 	train_loss:125.4839	valid_loss:179.2978	triplet_f1:54.3779% [7.4371s]
+Epoch:7/100 	train_loss:104.7688	valid_loss:173.4958	triplet_f1:59.4378% [7.5837s]
+Epoch:8/100 	train_loss:99.7945	valid_loss:176.2854	triplet_f1:60.5523% [7.5750s]
+Epoch:9/100 	train_loss:85.2199	valid_loss:188.1762	triplet_f1:60.4124% [7.7174s]
+Epoch:10/100 	train_loss:72.8781	valid_loss:191.7396	triplet_f1:61.1955% [7.5560s]
+Epoch:11/100 	train_loss:61.7867	valid_loss:196.8848	triplet_f1:59.6100% [7.6079s]
+Epoch:12/100 	train_loss:56.8037	valid_loss:210.4128	triplet_f1:63.0722% [7.5334s]
+Epoch:13/100 	train_loss:46.5094	valid_loss:241.8947	triplet_f1:60.0646% [7.4907s]
+Epoch:14/100 	train_loss:46.6563	valid_loss:219.0521	triplet_f1:62.9371% [7.6950s]
+Epoch:15/100 	train_loss:41.1251	valid_loss:237.1856	triplet_f1:61.8407% [7.4841s]
+Epoch:16/100 	train_loss:36.9702	valid_loss:233.7343	triplet_f1:62.5709% [7.4941s]
+Epoch:17/100 	train_loss:31.4660	valid_loss:251.6520	triplet_f1:62.3482% [7.5795s]
+Epoch:18/100 	train_loss:28.1106	valid_loss:274.6360	triplet_f1:60.6438% [7.7799s]
+Epoch:19/100 	train_loss:25.7578	valid_loss:256.4370	triplet_f1:61.4778% [7.6991s]
+Epoch:20/100 	train_loss:21.6997	valid_loss:292.6342	triplet_f1:61.6480% [7.5223s]
+Epoch:21/100 	train_loss:25.2579	valid_loss:279.4348	triplet_f1:61.4937% [7.4236s]
+Epoch:22/100 	train_loss:23.9762	valid_loss:268.7422	triplet_f1:64.0950% [7.6562s]
+Epoch:23/100 	train_loss:23.9602	valid_loss:330.7930	triplet_f1:59.0560% [7.6237s]
+Epoch:24/100 	train_loss:25.4130	valid_loss:298.7587	triplet_f1:60.2041% [7.6334s]
+Epoch:25/100 	train_loss:19.4699	valid_loss:314.3921	triplet_f1:62.3853% [7.3607s]
+Epoch:26/100 	train_loss:15.6705	valid_loss:334.4818	triplet_f1:61.9689% [7.5737s]
+Epoch:27/100 	train_loss:14.6041	valid_loss:314.1038	triplet_f1:60.8871% [7.5114s]
+Epoch:28/100 	train_loss:14.2624	valid_loss:323.3813	triplet_f1:63.4146% [7.5192s]
+Epoch:29/100 	train_loss:11.4546	valid_loss:343.5940	triplet_f1:62.2984% [7.5146s]
+Epoch:30/100 	train_loss:12.3866	valid_loss:350.0959	triplet_f1:62.8345% [7.5636s]
+Epoch:31/100 	train_loss:13.0301	valid_loss:322.9479	triplet_f1:63.2411% [7.7407s]
+Epoch:32/100 	train_loss:13.4309	valid_loss:321.5706	triplet_f1:62.1963% [8.1232s]
+Epoch:33/100 	train_loss:13.6590	valid_loss:371.9538	triplet_f1:63.5052% [6.5152s]
+Epoch:34/100 	train_loss:18.2446	valid_loss:322.6868	triplet_f1:62.0229% [7.4564s]
+Epoch:35/100 	train_loss:19.1071	valid_loss:342.6712	triplet_f1:63.7427% [7.5385s]
+Epoch:36/100 	train_loss:25.2853	valid_loss:321.1121	triplet_f1:61.9576% [7.3803s]
+Epoch:37/100 	train_loss:13.1297	valid_loss:357.3585	triplet_f1:63.3065% [7.5561s]
+Epoch:38/100 	train_loss:14.2441	valid_loss:383.8566	triplet_f1:62.1901% [7.6132s]
+Epoch:39/100 	train_loss:13.3194	valid_loss:340.9734	triplet_f1:63.6275% [7.5960s]
+Epoch:40/100 	train_loss:11.4927	valid_loss:363.1334	triplet_f1:63.1890% [7.4530s]
+Epoch:41/100 	train_loss:10.8115	valid_loss:339.0449	triplet_f1:64.5283% [7.6385s]
+Epoch:42/100 	train_loss:9.7906	valid_loss:365.4085	triplet_f1:63.2495% [7.3466s]
+Epoch:43/100 	train_loss:10.2332	valid_loss:356.6666	triplet_f1:63.2911% [7.5491s]
+Epoch:44/100 	train_loss:9.0983	valid_loss:368.3510	triplet_f1:62.4381% [7.3171s]
+Epoch:45/100 	train_loss:8.3431	valid_loss:393.2313	triplet_f1:61.0656% [7.6199s]
+Epoch:46/100 	train_loss:10.6279	valid_loss:372.2760	triplet_f1:63.0846% [7.4385s]
+Epoch:47/100 	train_loss:15.9261	valid_loss:393.4642	triplet_f1:62.4619% [7.4639s]
+Epoch:48/100 	train_loss:12.2263	valid_loss:368.9467	triplet_f1:63.7578% [7.9198s]
+Epoch:49/100 	train_loss:18.8587	valid_loss:388.7087	triplet_f1:64.0796% [7.2992s]
+Epoch:50/100 	train_loss:10.5311	valid_loss:379.9823	triplet_f1:63.3267% [7.6708s]
+Epoch:51/100 	train_loss:8.9725	valid_loss:384.6927	triplet_f1:62.0960% [7.6330s]
+Epoch:52/100 	train_loss:7.6527	valid_loss:380.8797	triplet_f1:62.8627% [7.2063s]
+Epoch:53/100 	train_loss:7.5461	valid_loss:387.2041	triplet_f1:63.1579% [7.5538s]
+Epoch:54/100 	train_loss:8.6890	valid_loss:382.5849	triplet_f1:62.7007% [7.6026s]
+Epoch:55/100 	train_loss:8.8994	valid_loss:410.3957	triplet_f1:61.5536% [7.2506s]
+Epoch:56/100 	train_loss:11.6672	valid_loss:415.0627	triplet_f1:61.8146% [7.4123s]
+Epoch:57/100 	train_loss:10.6314	valid_loss:424.3983	triplet_f1:62.0896% [7.7883s]
+Epoch:58/100 	train_loss:8.2710	valid_loss:439.2503	triplet_f1:65.3631% [7.2019s]
+Epoch:59/100 	train_loss:9.7925	valid_loss:392.6561	triplet_f1:62.9732% [7.5706s]
+Epoch:60/100 	train_loss:10.0302	valid_loss:418.5541	triplet_f1:62.2261% [7.6180s]
+Epoch:61/100 	train_loss:11.0309	valid_loss:447.9603	triplet_f1:62.2623% [8.0087s]
+Epoch:62/100 	train_loss:10.6778	valid_loss:412.1256	triplet_f1:65.6311% [6.7303s]
+Epoch:63/100 	train_loss:9.8404	valid_loss:420.0290	triplet_f1:64.0385% [6.8406s]
+Epoch:64/100 	train_loss:9.7741	valid_loss:468.2421	triplet_f1:64.9326% [4.6337s]
+Epoch:65/100 	train_loss:9.7777	valid_loss:396.4697	triplet_f1:64.0076% [7.5461s]
+Epoch:66/100 	train_loss:14.6803	valid_loss:435.6394	triplet_f1:64.6890% [7.6688s]
+Epoch:67/100 	train_loss:16.0879	valid_loss:414.2082	triplet_f1:65.9051% [7.6448s]
+Epoch:68/100 	train_loss:15.5492	valid_loss:417.4717	triplet_f1:63.5927% [7.3855s]
+Epoch:69/100 	train_loss:8.6127	valid_loss:432.7458	triplet_f1:64.0152% [7.5993s]
+Epoch:70/100 	train_loss:8.4018	valid_loss:439.4331	triplet_f1:64.5669% [7.3649s]
+Epoch:71/100 	train_loss:8.8780	valid_loss:478.7465	triplet_f1:64.2365% [7.7234s]
+Epoch:72/100 	train_loss:6.3353	valid_loss:458.6215	triplet_f1:65.8349% [7.3903s]
+Epoch:73/100 	train_loss:4.7527	valid_loss:438.9928	triplet_f1:64.5892% [7.6254s]
+Epoch:74/100 	train_loss:5.5872	valid_loss:490.6748	triplet_f1:65.9554% [7.5149s]
+Epoch:75/100 	train_loss:5.5871	valid_loss:476.2204	triplet_f1:65.0000% [7.4468s]
+Epoch:76/100 	train_loss:6.7122	valid_loss:446.4731	triplet_f1:66.0969% [7.7257s]
+Epoch:77/100 	train_loss:8.2359	valid_loss:449.7259	triplet_f1:63.6525% [7.5936s]
+Epoch:78/100 	train_loss:9.8094	valid_loss:453.3402	triplet_f1:64.4099% [7.6531s]
+Epoch:79/100 	train_loss:8.4595	valid_loss:511.5188	triplet_f1:65.3920% [7.5906s]
+Epoch:80/100 	train_loss:7.7637	valid_loss:488.2523	triplet_f1:63.4100% [7.6690s]
+Epoch:81/100 	train_loss:8.8280	valid_loss:472.1266	triplet_f1:65.1727% [7.3693s]
+Epoch:82/100 	train_loss:6.8643	valid_loss:516.6799	triplet_f1:63.1268% [7.6180s]
+Epoch:83/100 	train_loss:9.1354	valid_loss:507.4060	triplet_f1:66.7306% [7.5953s]
+Epoch:84/100 	train_loss:8.5827	valid_loss:446.9053	triplet_f1:63.6103% [7.7517s]
+Epoch:85/100 	train_loss:9.1074	valid_loss:638.3604	triplet_f1:58.8106% [7.4052s]
+Epoch:86/100 	train_loss:13.5576	valid_loss:553.7429	triplet_f1:63.5161% [7.7162s]
+Epoch:87/100 	train_loss:11.5928	valid_loss:460.3657	triplet_f1:63.6279% [7.4895s]
+Epoch:88/100 	train_loss:7.8627	valid_loss:452.8888	triplet_f1:64.3974% [7.1187s]
+Epoch:89/100 	train_loss:6.4445	valid_loss:492.7035	triplet_f1:65.2259% [7.4332s]
+Epoch:90/100 	train_loss:5.9225	valid_loss:525.3806	triplet_f1:65.9319% [7.3801s]
+Epoch:91/100 	train_loss:9.0898	valid_loss:557.7858	triplet_f1:63.2195% [8.1798s]
+Epoch:92/100 	train_loss:14.5724	valid_loss:523.5336	triplet_f1:65.2008% [6.5290s]
+Epoch:93/100 	train_loss:11.1558	valid_loss:534.3031	triplet_f1:65.0000% [6.6023s]
+Epoch:94/100 	train_loss:9.5112	valid_loss:528.1557	triplet_f1:65.2981% [7.6277s]
+Epoch:95/100 	train_loss:7.2281	valid_loss:494.1318	triplet_f1:64.5581% [7.5357s]
+Epoch:96/100 	train_loss:6.0897	valid_loss:497.6251	triplet_f1:65.7919% [7.6953s]
+Epoch:97/100 	train_loss:7.7556	valid_loss:471.3838	triplet_f1:65.7845% [7.8096s]
+Epoch:98/100 	train_loss:6.4610	valid_loss:480.2479	triplet_f1:66.0517% [7.5440s]
+Epoch:99/100 	train_loss:6.4275	valid_loss:544.7694	triplet_f1:64.8330% [7.5099s]
+Epoch:100/100 	train_loss:7.6144	valid_loss:510.5394	triplet_f1:65.0343% [7.3722s]
+> Testing...
+------------------------------
+Dataset:14res, test_f1:73.87% | version:1D lr:0.001 bert_lr:2e-05 seed:34 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	83.49%	72.74%	77.74%
+*TRIPLET	79.33%	69.11%	73.87%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	82.74%	77.32%	79.94%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	71.03%	53.12%	60.78%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	70.15%	52.42%	60.00%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	71.43%	49.45%	58.44%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	82.89%	87.38%	85.07%
+  OTE   	83.98%	90.87%	87.29%
+
+=========================================================================================================
+> label2id: {'N': 0, 'NEG': 1, 'NEU': 2, 'POS': 3, 'O': 4, 'A': 5}
+> weight: tensor([1., 2., 2., 2., 1., 1.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='15res', version='1D', seed=20, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=6)
+> Load model...
+> # parameters 109639646
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:615.2955	valid_loss:286.1813	triplet_f1:5.4688% [3.4447s]
+Epoch:2/100 	train_loss:248.9583	valid_loss:203.0356	triplet_f1:35.8209% [3.6138s]
+Epoch:3/100 	train_loss:193.0937	valid_loss:178.2877	triplet_f1:41.7647% [3.5754s]
+Epoch:4/100 	train_loss:150.5181	valid_loss:150.6264	triplet_f1:54.3081% [3.5063s]
+Epoch:5/100 	train_loss:121.3179	valid_loss:164.5721	triplet_f1:54.6961% [3.3956s]
+Epoch:6/100 	train_loss:102.0564	valid_loss:140.0349	triplet_f1:62.3501% [3.3122s]
+Epoch:7/100 	train_loss:81.8409	valid_loss:153.1381	triplet_f1:58.8859% [3.2849s]
+Epoch:8/100 	train_loss:70.4787	valid_loss:139.6436	triplet_f1:62.3762% [3.5299s]
+Epoch:9/100 	train_loss:66.8545	valid_loss:131.9675	triplet_f1:65.1163% [3.4237s]
+Epoch:10/100 	train_loss:210.3049	valid_loss:163.6053	triplet_f1:54.8303% [3.5658s]
+Epoch:11/100 	train_loss:89.4315	valid_loss:148.6560	triplet_f1:56.3830% [3.5786s]
+Epoch:12/100 	train_loss:56.8949	valid_loss:142.5784	triplet_f1:66.6667% [3.7011s]
+Epoch:13/100 	train_loss:41.8018	valid_loss:151.9945	triplet_f1:67.2986% [3.5942s]
+Epoch:14/100 	train_loss:33.2494	valid_loss:159.8151	triplet_f1:68.0751% [3.4478s]
+Epoch:15/100 	train_loss:31.5779	valid_loss:160.4992	triplet_f1:69.9764% [3.5324s]
+Epoch:16/100 	train_loss:26.4772	valid_loss:167.0629	triplet_f1:69.4253% [3.5034s]
+Epoch:17/100 	train_loss:26.8769	valid_loss:165.2135	triplet_f1:70.5628% [3.7535s]
+Epoch:18/100 	train_loss:24.5797	valid_loss:172.1696	triplet_f1:69.4878% [3.4106s]
+Epoch:19/100 	train_loss:27.1099	valid_loss:171.3656	triplet_f1:69.2982% [3.4997s]
+Epoch:20/100 	train_loss:37.6164	valid_loss:201.3967	triplet_f1:66.3462% [3.6768s]
+Epoch:21/100 	train_loss:26.5916	valid_loss:172.1590	triplet_f1:69.6231% [3.4387s]
+Epoch:22/100 	train_loss:18.4396	valid_loss:190.2583	triplet_f1:70.0229% [3.5987s]
+Epoch:23/100 	train_loss:18.2875	valid_loss:186.8745	triplet_f1:68.8889% [3.6300s]
+Epoch:24/100 	train_loss:14.0371	valid_loss:197.0260	triplet_f1:69.4444% [3.4561s]
+Epoch:25/100 	train_loss:12.3425	valid_loss:193.2871	triplet_f1:71.3348% [3.4907s]
+Epoch:26/100 	train_loss:11.8046	valid_loss:206.7980	triplet_f1:69.5652% [3.4768s]
+Epoch:27/100 	train_loss:13.8847	valid_loss:236.0903	triplet_f1:68.2809% [3.3847s]
+Epoch:28/100 	train_loss:11.9394	valid_loss:207.3426	triplet_f1:71.1316% [3.7151s]
+Epoch:29/100 	train_loss:8.5806	valid_loss:206.3657	triplet_f1:71.1111% [3.9303s]
+Epoch:30/100 	train_loss:7.6936	valid_loss:211.4732	triplet_f1:71.7489% [3.3209s]
+Epoch:31/100 	train_loss:12.1526	valid_loss:235.8606	triplet_f1:70.5357% [2.5190s]
+Epoch:32/100 	train_loss:19.5350	valid_loss:224.9718	triplet_f1:69.2483% [3.8970s]
+Epoch:33/100 	train_loss:22.9320	valid_loss:233.4587	triplet_f1:68.5315% [3.7714s]
+Epoch:34/100 	train_loss:14.3497	valid_loss:208.7060	triplet_f1:70.3196% [1.7860s]
+Epoch:35/100 	train_loss:8.8994	valid_loss:243.1784	triplet_f1:69.4253% [1.6474s]
+Epoch:36/100 	train_loss:6.5540	valid_loss:239.5973	triplet_f1:69.2661% [2.7867s]
+Epoch:37/100 	train_loss:6.8136	valid_loss:238.7129	triplet_f1:70.9821% [3.5176s]
+Epoch:38/100 	train_loss:8.4142	valid_loss:239.7938	triplet_f1:72.2101% [3.4508s]
+Epoch:39/100 	train_loss:10.0793	valid_loss:240.6465	triplet_f1:70.4805% [3.6419s]
+Epoch:40/100 	train_loss:8.8516	valid_loss:252.3482	triplet_f1:70.9677% [3.4838s]
+Epoch:41/100 	train_loss:12.3513	valid_loss:229.6204	triplet_f1:71.0526% [3.6202s]
+Epoch:42/100 	train_loss:19.5234	valid_loss:255.9457	triplet_f1:66.0465% [3.5469s]
+Epoch:43/100 	train_loss:12.2729	valid_loss:227.3785	triplet_f1:69.6056% [3.4430s]
+Epoch:44/100 	train_loss:7.7609	valid_loss:246.0170	triplet_f1:70.1987% [3.2683s]
+Epoch:45/100 	train_loss:9.3357	valid_loss:236.6766	triplet_f1:69.4064% [3.3909s]
+Epoch:46/100 	train_loss:6.6535	valid_loss:230.6357	triplet_f1:71.7724% [3.7386s]
+Epoch:47/100 	train_loss:4.6437	valid_loss:233.4046	triplet_f1:71.5232% [3.4277s]
+Epoch:48/100 	train_loss:5.4073	valid_loss:250.9391	triplet_f1:72.0524% [3.6764s]
+Epoch:49/100 	train_loss:4.6785	valid_loss:244.3368	triplet_f1:72.0174% [3.5611s]
+Epoch:50/100 	train_loss:6.4289	valid_loss:262.8040	triplet_f1:71.3656% [3.4751s]
+Epoch:51/100 	train_loss:5.2670	valid_loss:258.6047	triplet_f1:72.1739% [3.2643s]
+Epoch:52/100 	train_loss:4.4335	valid_loss:247.0214	triplet_f1:71.6738% [3.5043s]
+Epoch:53/100 	train_loss:3.5083	valid_loss:268.1523	triplet_f1:70.7424% [3.4728s]
+Epoch:54/100 	train_loss:4.1234	valid_loss:264.2577	triplet_f1:71.2389% [3.5790s]
+Epoch:55/100 	train_loss:4.6188	valid_loss:270.0415	triplet_f1:68.9038% [3.2832s]
+Epoch:56/100 	train_loss:4.0880	valid_loss:281.3315	triplet_f1:69.0265% [3.5213s]
+Epoch:57/100 	train_loss:4.4608	valid_loss:272.7232	triplet_f1:71.4286% [3.6233s]
+Epoch:58/100 	train_loss:5.7030	valid_loss:265.5933	triplet_f1:71.1207% [3.5056s]
+Epoch:59/100 	train_loss:5.9241	valid_loss:289.9623	triplet_f1:69.4253% [3.6520s]
+Epoch:60/100 	train_loss:6.3370	valid_loss:279.6143	triplet_f1:69.4045% [3.6072s]
+Epoch:61/100 	train_loss:8.3329	valid_loss:330.7181	triplet_f1:69.6833% [3.5053s]
+Epoch:62/100 	train_loss:5.2383	valid_loss:279.7471	triplet_f1:71.3969% [3.3087s]
+Epoch:63/100 	train_loss:6.1246	valid_loss:322.2814	triplet_f1:69.5853% [3.6081s]
+Epoch:64/100 	train_loss:11.8878	valid_loss:272.0604	triplet_f1:70.4846% [3.5513s]
+Epoch:65/100 	train_loss:9.2478	valid_loss:281.2562	triplet_f1:69.0745% [3.3962s]
+Epoch:66/100 	train_loss:7.3411	valid_loss:300.4114	triplet_f1:70.3448% [3.3568s]
+Epoch:67/100 	train_loss:6.2882	valid_loss:282.8627	triplet_f1:69.5260% [3.5682s]
+Epoch:68/100 	train_loss:5.7053	valid_loss:277.4646	triplet_f1:70.6422% [3.6775s]
+Epoch:69/100 	train_loss:8.0674	valid_loss:274.8822	triplet_f1:70.1124% [3.8917s]
+Epoch:70/100 	train_loss:5.0777	valid_loss:304.0655	triplet_f1:69.5652% [3.4025s]
+Epoch:71/100 	train_loss:5.7137	valid_loss:298.6174	triplet_f1:69.9332% [3.5270s]
+Epoch:72/100 	train_loss:10.1358	valid_loss:271.0817	triplet_f1:71.1790% [3.5625s]
+Epoch:73/100 	train_loss:10.1658	valid_loss:303.9523	triplet_f1:71.1712% [3.4416s]
+Epoch:74/100 	train_loss:11.0254	valid_loss:296.1078	triplet_f1:71.3043% [3.9816s]
+Epoch:75/100 	train_loss:15.2138	valid_loss:309.3755	triplet_f1:66.6667% [3.4011s]
+Epoch:76/100 	train_loss:10.5648	valid_loss:322.5838	triplet_f1:68.0460% [3.5393s]
+Epoch:77/100 	train_loss:8.5647	valid_loss:288.6125	triplet_f1:70.0441% [3.3417s]
+Epoch:78/100 	train_loss:6.7982	valid_loss:309.5177	triplet_f1:70.6897% [3.6341s]
+Epoch:79/100 	train_loss:6.5544	valid_loss:334.6117	triplet_f1:68.5714% [3.6389s]
+Epoch:80/100 	train_loss:5.0856	valid_loss:279.7692	triplet_f1:70.3390% [3.6817s]
+Epoch:81/100 	train_loss:5.4099	valid_loss:307.7555	triplet_f1:70.6131% [3.4533s]
+Epoch:82/100 	train_loss:6.2084	valid_loss:328.5975	triplet_f1:68.4096% [3.5323s]
+Epoch:83/100 	train_loss:4.9402	valid_loss:308.9918	triplet_f1:72.9614% [3.3536s]
+Epoch:84/100 	train_loss:7.0100	valid_loss:328.7876	triplet_f1:71.8954% [3.5574s]
+Epoch:85/100 	train_loss:9.9634	valid_loss:366.0670	triplet_f1:69.0307% [3.5785s]
+Epoch:86/100 	train_loss:12.9034	valid_loss:314.9652	triplet_f1:68.8073% [3.4885s]
+Epoch:87/100 	train_loss:5.4618	valid_loss:323.0434	triplet_f1:69.3694% [3.4013s]
+Epoch:88/100 	train_loss:5.0770	valid_loss:360.4756	triplet_f1:69.7039% [3.6015s]
+Epoch:89/100 	train_loss:7.3371	valid_loss:356.3138	triplet_f1:68.6636% [3.5504s]
+Epoch:90/100 	train_loss:5.5606	valid_loss:338.7636	triplet_f1:70.3057% [3.1803s]
+Epoch:91/100 	train_loss:4.0958	valid_loss:334.2513	triplet_f1:70.1987% [3.4919s]
+Epoch:92/100 	train_loss:3.4520	valid_loss:356.2369	triplet_f1:71.6216% [3.3371s]
+Epoch:93/100 	train_loss:3.6229	valid_loss:322.4630	triplet_f1:69.6231% [3.4137s]
+Epoch:94/100 	train_loss:2.9604	valid_loss:337.4647	triplet_f1:71.7149% [3.4525s]
+Epoch:95/100 	train_loss:3.5863	valid_loss:329.2388	triplet_f1:70.2586% [3.5551s]
+Epoch:96/100 	train_loss:2.7267	valid_loss:342.3491	triplet_f1:70.2703% [3.9220s]
+Epoch:97/100 	train_loss:3.1774	valid_loss:332.8031	triplet_f1:69.7572% [3.9623s]
+Epoch:98/100 	train_loss:4.3808	valid_loss:347.4613	triplet_f1:70.7763% [2.1200s]
+Epoch:99/100 	train_loss:3.9798	valid_loss:336.4227	triplet_f1:70.1987% [2.7409s]
+Epoch:100/100 	train_loss:3.9018	valid_loss:322.2093	triplet_f1:69.1796% [3.4297s]
+> Testing...
+------------------------------
+Dataset:15res, test_f1:64.65% | version:1D lr:0.001 bert_lr:2e-05 seed:20 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	78.33%	65.57%	71.38%
+*TRIPLET	70.94%	59.38%	64.65%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	78.14%	64.98%	70.96%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	59.75%	50.53%	54.76%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	61.06%	50.36%	55.20%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	52.73%	45.31%	48.74%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	77.37%	83.10%	80.13%
+  OTE   	76.60%	83.08%	79.71%
+
+=========================================================================================================
+> label2id: {'N': 0, 'NEG': 1, 'NEU': 2, 'POS': 3, 'O': 4, 'A': 5}
+> weight: tensor([1., 2., 2., 2., 1., 1.], device='cuda:0')
+Namespace(device='cuda', dataset_dir='../data/ASTE-Data-V2-EMNLP2020', saved_dir='saved_models', saved_file=None, pretrained_model='bert-base-uncased', dataset='16res', version='1D', seed=270, hidden_dim=200, num_epoch=100, batch_size=16, lr=0.001, bert_lr=2e-05, l2=0.0, dropout_rate=0.5, adam_epsilon=1e-08, with_weight=True, class_n=6)
+> Load model...
+> # parameters 109639646
+> Load dataset...
+> Training...
+Epoch:1/100 	train_loss:464.1992	valid_loss:210.0158	triplet_f1:43.4783% [4.9726s]
+Epoch:2/100 	train_loss:207.4320	valid_loss:178.7198	triplet_f1:48.7973% [5.0519s]
+Epoch:3/100 	train_loss:240.4764	valid_loss:163.3844	triplet_f1:42.1277% [5.1219s]
+Epoch:4/100 	train_loss:147.8954	valid_loss:142.7302	triplet_f1:49.4208% [4.9226s]
+Epoch:5/100 	train_loss:115.5636	valid_loss:142.6351	triplet_f1:57.0916% [5.1156s]
+Epoch:6/100 	train_loss:93.7259	valid_loss:147.2211	triplet_f1:55.0562% [4.9541s]
+Epoch:7/100 	train_loss:96.0148	valid_loss:142.4603	triplet_f1:61.0932% [5.3190s]
+Epoch:8/100 	train_loss:65.4326	valid_loss:150.8722	triplet_f1:59.9647% [5.1900s]
+Epoch:9/100 	train_loss:53.2600	valid_loss:155.4630	triplet_f1:60.1423% [5.0042s]
+Epoch:10/100 	train_loss:48.4256	valid_loss:163.6900	triplet_f1:62.7787% [4.7078s]
+Epoch:11/100 	train_loss:43.0059	valid_loss:153.4129	triplet_f1:65.3784% [5.1063s]
+Epoch:12/100 	train_loss:39.5752	valid_loss:156.5271	triplet_f1:64.8026% [5.0468s]
+Epoch:13/100 	train_loss:35.6673	valid_loss:179.8036	triplet_f1:64.1844% [4.8034s]
+Epoch:14/100 	train_loss:27.6124	valid_loss:169.9471	triplet_f1:66.1184% [5.0334s]
+Epoch:15/100 	train_loss:24.1339	valid_loss:184.8763	triplet_f1:68.7898% [5.0214s]
+Epoch:16/100 	train_loss:23.7652	valid_loss:216.5535	triplet_f1:64.3234% [5.0042s]
+Epoch:17/100 	train_loss:22.5894	valid_loss:175.4141	triplet_f1:67.0866% [5.2626s]
+Epoch:18/100 	train_loss:18.8923	valid_loss:214.8851	triplet_f1:66.7814% [5.0951s]
+Epoch:19/100 	train_loss:25.8634	valid_loss:202.4666	triplet_f1:66.9725% [4.9391s]
+Epoch:20/100 	train_loss:23.0846	valid_loss:319.4646	triplet_f1:61.6822% [4.9525s]
+Epoch:21/100 	train_loss:60.3034	valid_loss:195.2350	triplet_f1:68.1458% [5.0231s]
+Epoch:22/100 	train_loss:24.3644	valid_loss:187.5726	triplet_f1:68.0713% [5.0383s]
+Epoch:23/100 	train_loss:16.4937	valid_loss:210.5833	triplet_f1:69.6667% [5.0968s]
+Epoch:24/100 	train_loss:14.1892	valid_loss:210.0570	triplet_f1:67.9612% [5.0704s]
+Epoch:25/100 	train_loss:10.7748	valid_loss:251.6288	triplet_f1:69.8145% [5.1641s]
+Epoch:26/100 	train_loss:10.1778	valid_loss:248.4509	triplet_f1:68.6207% [5.0104s]
+Epoch:27/100 	train_loss:13.4284	valid_loss:239.1527	triplet_f1:69.1318% [5.2342s]
+Epoch:28/100 	train_loss:13.0897	valid_loss:247.2238	triplet_f1:68.7603% [5.0532s]
+Epoch:29/100 	train_loss:12.0213	valid_loss:232.7021	triplet_f1:70.4225% [5.0365s]
+Epoch:30/100 	train_loss:11.7132	valid_loss:243.8405	triplet_f1:68.0992% [5.1564s]
+Epoch:31/100 	train_loss:10.3548	valid_loss:267.1925	triplet_f1:66.6667% [5.5635s]
+Epoch:32/100 	train_loss:8.8183	valid_loss:240.7404	triplet_f1:69.9029% [3.6815s]
+Epoch:33/100 	train_loss:11.0799	valid_loss:244.9650	triplet_f1:69.1928% [4.4688s]
+Epoch:34/100 	train_loss:7.1014	valid_loss:281.1367	triplet_f1:67.0175% [5.5517s]
+Epoch:35/100 	train_loss:9.3652	valid_loss:241.8960	triplet_f1:68.7211% [2.4945s]
+Epoch:36/100 	train_loss:11.1295	valid_loss:264.8509	triplet_f1:69.7389% [3.1545s]
+Epoch:37/100 	train_loss:7.9835	valid_loss:255.0473	triplet_f1:69.3548% [5.0308s]
+Epoch:38/100 	train_loss:7.1310	valid_loss:265.1919	triplet_f1:69.3811% [5.2339s]
+Epoch:39/100 	train_loss:5.6233	valid_loss:272.6613	triplet_f1:70.3297% [4.9559s]
+Epoch:40/100 	train_loss:6.5119	valid_loss:288.4717	triplet_f1:69.2557% [5.1306s]
+Epoch:41/100 	train_loss:8.2097	valid_loss:266.0160	triplet_f1:68.5446% [5.0415s]
+Epoch:42/100 	train_loss:9.0088	valid_loss:251.8219	triplet_f1:71.4724% [5.0788s]
+Epoch:43/100 	train_loss:5.3210	valid_loss:274.7570	triplet_f1:70.4225% [4.9997s]
+Epoch:44/100 	train_loss:7.8636	valid_loss:292.8065	triplet_f1:67.5453% [5.0435s]
+Epoch:45/100 	train_loss:11.9738	valid_loss:311.2277	triplet_f1:68.3587% [4.9994s]
+Epoch:46/100 	train_loss:8.7071	valid_loss:273.1290	triplet_f1:70.5882% [5.1834s]
+Epoch:47/100 	train_loss:14.7363	valid_loss:281.5367	triplet_f1:69.3038% [5.1740s]
+Epoch:48/100 	train_loss:11.1780	valid_loss:268.4358	triplet_f1:72.6989% [5.0943s]
+Epoch:49/100 	train_loss:8.4957	valid_loss:297.6218	triplet_f1:68.8633% [5.3283s]
+Epoch:50/100 	train_loss:6.6563	valid_loss:296.8566	triplet_f1:69.4631% [5.0847s]
+Epoch:51/100 	train_loss:4.9676	valid_loss:297.3292	triplet_f1:69.4079% [5.2570s]
+Epoch:52/100 	train_loss:4.9075	valid_loss:307.4521	triplet_f1:70.1468% [5.0591s]
+Epoch:53/100 	train_loss:7.1429	valid_loss:284.5769	triplet_f1:70.2439% [5.1120s]
+Epoch:54/100 	train_loss:4.5639	valid_loss:296.9446	triplet_f1:70.3764% [4.9105s]
+Epoch:55/100 	train_loss:5.3914	valid_loss:328.7622	triplet_f1:69.6063% [4.9432s]
+Epoch:56/100 	train_loss:10.4498	valid_loss:304.5007	triplet_f1:69.5375% [5.0371s]
+Epoch:57/100 	train_loss:8.7394	valid_loss:340.2061	triplet_f1:66.6667% [4.9012s]
+Epoch:58/100 	train_loss:10.4907	valid_loss:288.4932	triplet_f1:70.2194% [5.0784s]
+Epoch:59/100 	train_loss:8.1421	valid_loss:287.0772	triplet_f1:69.5935% [5.1283s]
+Epoch:60/100 	train_loss:7.1724	valid_loss:283.6940	triplet_f1:69.2547% [5.1987s]
+Epoch:61/100 	train_loss:5.1367	valid_loss:317.5433	triplet_f1:69.3944% [5.3306s]
+Epoch:62/100 	train_loss:5.6704	valid_loss:329.5237	triplet_f1:67.6329% [4.8771s]
+Epoch:63/100 	train_loss:6.4190	valid_loss:335.1062	triplet_f1:69.6594% [5.0288s]
+Epoch:64/100 	train_loss:7.0010	valid_loss:310.6173	triplet_f1:70.4545% [5.2197s]
+Epoch:65/100 	train_loss:5.9313	valid_loss:316.7345	triplet_f1:68.2779% [5.0440s]
+Epoch:66/100 	train_loss:6.0505	valid_loss:354.2399	triplet_f1:69.8873% [5.1526s]
+Epoch:67/100 	train_loss:6.7963	valid_loss:321.4850	triplet_f1:70.9375% [4.8595s]
+Epoch:68/100 	train_loss:5.7668	valid_loss:339.7565	triplet_f1:70.2791% [5.0904s]
+Epoch:69/100 	train_loss:5.9170	valid_loss:335.3417	triplet_f1:71.5397% [4.9480s]
+Epoch:70/100 	train_loss:8.2125	valid_loss:339.5212	triplet_f1:69.0000% [4.9234s]
+Epoch:71/100 	train_loss:8.7129	valid_loss:351.4468	triplet_f1:67.7741% [5.0312s]
+Epoch:72/100 	train_loss:7.2765	valid_loss:320.6802	triplet_f1:71.5569% [5.0628s]
+Epoch:73/100 	train_loss:8.5448	valid_loss:357.8526	triplet_f1:69.6486% [5.0688s]
+Epoch:74/100 	train_loss:12.7532	valid_loss:341.3474	triplet_f1:70.2467% [4.7594s]
+Epoch:75/100 	train_loss:7.4366	valid_loss:329.8591	triplet_f1:71.5822% [5.0111s]
+Epoch:76/100 	train_loss:8.0553	valid_loss:341.1655	triplet_f1:71.8331% [5.1917s]
+Epoch:77/100 	train_loss:27.3359	valid_loss:335.3359	triplet_f1:69.6319% [5.1295s]
+Epoch:78/100 	train_loss:16.9504	valid_loss:359.5501	triplet_f1:67.5541% [5.4553s]
+Epoch:79/100 	train_loss:11.9569	valid_loss:323.8833	triplet_f1:69.9387% [4.9674s]
+Epoch:80/100 	train_loss:5.2118	valid_loss:324.5414	triplet_f1:68.9984% [4.3446s]
+Epoch:81/100 	train_loss:6.6091	valid_loss:366.2405	triplet_f1:69.9507% [4.9246s]
+Epoch:82/100 	train_loss:4.4847	valid_loss:360.0423	triplet_f1:69.7161% [5.1278s]
+Epoch:83/100 	train_loss:6.3397	valid_loss:365.4040	triplet_f1:69.4215% [4.8082s]
+Epoch:84/100 	train_loss:7.1050	valid_loss:325.4186	triplet_f1:69.6594% [4.9837s]
+Epoch:85/100 	train_loss:4.6622	valid_loss:363.8282	triplet_f1:69.7600% [5.1765s]
+Epoch:86/100 	train_loss:5.3648	valid_loss:393.8026	triplet_f1:71.4286% [5.2057s]
+Epoch:87/100 	train_loss:7.5808	valid_loss:403.6661	triplet_f1:70.8783% [4.8956s]
+Epoch:88/100 	train_loss:9.6777	valid_loss:355.6533	triplet_f1:71.6981% [4.8935s]
+Epoch:89/100 	train_loss:6.2389	valid_loss:368.7065	triplet_f1:70.6070% [5.0502s]
+Epoch:90/100 	train_loss:4.1949	valid_loss:390.6832	triplet_f1:71.0191% [5.1260s]
+Epoch:91/100 	train_loss:4.4644	valid_loss:356.3797	triplet_f1:70.2619% [5.1128s]
+Epoch:92/100 	train_loss:5.1568	valid_loss:375.0442	triplet_f1:72.1417% [5.1792s]
+Epoch:93/100 	train_loss:4.6148	valid_loss:359.4727	triplet_f1:70.3704% [4.9185s]
+Epoch:94/100 	train_loss:4.9678	valid_loss:356.1806	triplet_f1:72.2481% [5.0951s]
+Epoch:95/100 	train_loss:7.0075	valid_loss:420.9219	triplet_f1:70.8134% [4.9385s]
+Epoch:96/100 	train_loss:7.0729	valid_loss:390.3921	triplet_f1:71.5421% [5.1347s]
+Epoch:97/100 	train_loss:9.5405	valid_loss:422.4066	triplet_f1:69.6183% [4.9777s]
+Epoch:98/100 	train_loss:16.1379	valid_loss:431.0356	triplet_f1:69.3252% [5.1985s]
+Epoch:99/100 	train_loss:10.5178	valid_loss:440.9565	triplet_f1:69.5935% [4.8825s]
+Epoch:100/100 	train_loss:10.0598	valid_loss:450.4011	triplet_f1:70.1169% [5.0079s]
+> Testing...
+------------------------------
+Dataset:16res, test_f1:74.10% | version:1D lr:0.001 bert_lr:2e-05 seed:270 dropout:0.5
+
+[ all ]
+	  	P		R		F
+  PAIR  	84.84%	75.10%	79.67%
+*TRIPLET	78.90%	69.84%	74.10%
+
+
+[ one ]
+	  	P		R		F
+*TRIPLET	81.82%	75.87%	78.73%
+
+
+[ multi ]
+	  	P		R		F
+*TRIPLET	72.06%	57.65%	64.05%
+
+
+[ multi_aspect ]
+	  	P		R		F
+*TRIPLET	78.70%	65.89%	71.73%
+
+
+[ multi_opinion ]
+	  	P		R		F
+*TRIPLET	41.18%	25.93%	31.82%
+
+
+[ term ]
+	  	P		R		F
+  ATE   	82.33%	87.61%	84.89%
+  OTE   	82.79%	90.11%	86.29%
+
+{'14lap-3D-True': {'precision': 0.6976744186046512, 'recall': 0.5545286506469501, 'f1': 0.6179196704428425}, '14res-3D-True': {'precision': 0.7882219705549264, 'recall': 0.7002012072434608, 'f1': 0.7416089504528502}, '15res-3D-True': {'precision': 0.7265822784810126, 'recall': 0.5917525773195876, 'f1': 0.6522727272727272}, '16res-3D-True': {'precision': 0.7658227848101266, 'recall': 0.7062256809338522, 'f1': 0.7348178137651822}, '14lap-2D-True': {'precision': 0.7146282973621103, 'recall': 0.5508317929759704, 'f1': 0.6221294363256785}, '14res-2D-True': {'precision': 0.7832957110609481, 'recall': 0.6981891348088531, 'f1': 0.7382978723404255}, '15res-2D-True': {'precision': 0.7309644670050761, 'recall': 0.5938144329896907, 'f1': 0.6552901023890784}, '16res-2D-True': {'precision': 0.7954022988505747, 'recall': 0.6731517509727627, 'f1': 0.7291886195995785}, '14lap-1D-True': {'precision': 0.7132530120481928, 'recall': 0.5471349353049908, 'f1': 0.6192468619246863}, '14res-1D-True': {'precision': 0.7933025404157044, 'recall': 0.6911468812877264, 'f1': 0.7387096774193548}, '15res-1D-True': {'precision': 0.7093596059113301, 'recall': 0.5938144329896907, 'f1': 0.6464646464646464}, '16res-1D-True': {'precision': 0.789010989010989, 'recall': 0.6984435797665369, 'f1': 0.740970072239422}}
+----------------------------------------------------------------
+14lap	3D	61.79%
+14res	3D	74.16%
+15res	3D	65.23%
+16res	3D	73.48%
+14lap	2D	62.21%
+14res	2D	73.83%
+15res	2D	65.53%
+16res	2D	72.92%
+14lap	1D	61.92%
+14res	1D	73.87%
+15res	1D	64.65%
+16res	1D	74.10%

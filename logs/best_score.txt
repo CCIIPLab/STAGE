@@ -1,0 +1,16 @@
+Dataset	Version	Test F1
+
+14lap	3D		61.79%
+14res	3D		74.16%
+15res	3D		65.23%
+16res	3D		73.48%
+
+14lap	2D		62.21%
+14res	2D		73.83%
+15res	2D		65.53%
+16res	2D		72.92%
+
+14lap	1D		61.92%
+14res	1D		73.87%
+15res	1D		64.65%
+16res	1D		74.10%
